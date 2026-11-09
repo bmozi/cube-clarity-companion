@@ -1,0 +1,7053 @@
+[
+  {
+    "id": "OLL-001",
+    "family": "OLL",
+    "algorithm": "R2 D R' U2 R D' R' U2 R'",
+    "setup": "R U2 R D R' U2 R D' R2",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      18,
+      20
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 23",
+    "previous_working_algorithm": "R U R' U R U2 R' U R U2 R' U' R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Headlights",
+        "moves": "R2 D R' U2 R D' R' U2 R'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-002",
+    "family": "OLL",
+    "algorithm": "r U R' U' r' F R F'",
+    "setup": "F R' F' r U R U' r'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      7,
+      36,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 24",
+    "previous_working_algorithm": "R U R' U R U2 R' U' R U2 R' U' R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-003",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U2 F R U R' U' F'",
+    "setup": "F U R U' R' F' U2 F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      8,
+      19,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 28"
+  },
+  {
+    "id": "OLL-004",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      3,
+      18,
+      19,
+      20,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 43"
+  },
+  {
+    "id": "OLL-005",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' F' r U R' U' r' F R",
+    "setup": "R' F' r U R U' r' F F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      3,
+      19,
+      36,
+      37,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 31",
+    "previous_working_algorithm": "R U R' U R U2 R' F U R U' R' F' F U R U' R' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "Bowtie",
+        "moves": "F' r U R' U' r' F R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-006",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F'",
+    "setup": "F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      5,
+      18,
+      19,
+      20,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 44"
+  },
+  {
+    "id": "OLL-007",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' r U R' U' r' F R F'",
+    "setup": "F R' F' r U R U' r' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      5,
+      19,
+      36,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 32",
+    "previous_working_algorithm": "R U2 R' U' R U' R' R U2 R' U' R U' R' F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-008",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U2 F U R U' R' F'",
+    "setup": "F R U R' U' F' U2 F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 57"
+  },
+  {
+    "id": "OLL-009",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F'",
+    "setup": "F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      7,
+      18,
+      20,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 45"
+  },
+  {
+    "id": "OLL-010",
+    "family": "OLL",
+    "algorithm": "F' r U R' U' r' F R U' F R U R' U' F'",
+    "setup": "F U R U' R' F' U R' F' r U R U' r' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      7,
+      36,
+      37,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 33",
+    "previous_working_algorithm": "F R U R' U' F' R U R' U R U2 R' R U R' U R U2 R'",
+    "teaching_chunks": [
+      {
+        "name": "Bowtie",
+        "moves": "F' r U R' U' r' F R"
+      },
+      {
+        "name": "U'",
+        "moves": "U'"
+      },
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-011",
+    "family": "OLL",
+    "algorithm": "F' r U R' U' r' F R",
+    "setup": "R' F' r U R U' r' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      8,
+      18,
+      38
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 25",
+    "previous_working_algorithm": "R U2 R' U' R U' R' U2 R U R' U R U2 R'",
+    "teaching_chunks": [
+      {
+        "name": "Bowtie",
+        "moves": "F' r U R' U' r' F R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-012",
+    "family": "OLL",
+    "algorithm": "R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      18,
+      27,
+      36
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 26"
+  },
+  {
+    "id": "OLL-013",
+    "family": "OLL",
+    "algorithm": "R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      20,
+      38,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 27"
+  },
+  {
+    "id": "OLL-014",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U r U R' U' r' F R F'",
+    "setup": "F R' F' r U R U' r' U' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      8,
+      18,
+      19,
+      37,
+      38
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 37",
+    "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R' U F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "U",
+        "moves": "U"
+      },
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-015",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U2 R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R' U2 F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      8,
+      19,
+      27,
+      37,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 35"
+  },
+  {
+    "id": "OLL-016",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U' F U R U' R' F'",
+    "setup": "F R U R' U' F' U F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      18,
+      19,
+      27,
+      36,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 6"
+  },
+  {
+    "id": "OLL-017",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U' F R U R' U' F'",
+    "setup": "F U R U' R' F' U F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      3,
+      19,
+      20,
+      37,
+      38,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 5"
+  },
+  {
+    "id": "OLL-018",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U' F' r U R' U' r' F R",
+    "setup": "R' F' r U R U' r' F U F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      5,
+      6,
+      19,
+      20,
+      27,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 30",
+    "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R' F U R U' R' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "U'",
+        "moves": "U'"
+      },
+      {
+        "name": "Bowtie",
+        "moves": "F' r U R' U' r' F R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-019",
+    "family": "OLL",
+    "algorithm": "R U R' U R U2 R' F R U R' U' F'",
+    "setup": "F U R U' R' F' R U2 R' U' R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      5,
+      6,
+      19,
+      36,
+      38,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 41"
+  },
+  {
+    "id": "OLL-020",
+    "family": "OLL",
+    "algorithm": "R U R' U R U2 R' U F R U R' U' F'",
+    "setup": "F U R U' R' F' U' R U2 R' U' R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      5,
+      8,
+      18,
+      19,
+      38,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 38"
+  },
+  {
+    "id": "OLL-021",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U' R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' U F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      5,
+      8,
+      19,
+      27,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 36"
+  },
+  {
+    "id": "OLL-022",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U F R U R' U' F'",
+    "setup": "F U R U' R' F' U' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      5,
+      18,
+      19,
+      27,
+      36,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 12"
+  },
+  {
+    "id": "OLL-023",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U F U R U' R' F'",
+    "setup": "F R U R' U' F' U' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      5,
+      19,
+      20,
+      38,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 7"
+  },
+  {
+    "id": "OLL-024",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U F' r U R' U' r' F R",
+    "setup": "R' F' r U R U' r' F U' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      7,
+      20,
+      27,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 34",
+    "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' U' R U2 R' U' R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      },
+      {
+        "name": "U",
+        "moves": "U"
+      },
+      {
+        "name": "Bowtie",
+        "moves": "F' r U R' U' r' F R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-025",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U' R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R' U F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      7,
+      36,
+      37,
+      38,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 46"
+  },
+  {
+    "id": "OLL-026",
+    "family": "OLL",
+    "algorithm": "R U2 R' U' R U' R' F U R U' R' F'",
+    "setup": "F R U R' U' F' R U R' U R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      7,
+      8,
+      18,
+      37,
+      38,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 39"
+  },
+  {
+    "id": "OLL-027",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      7,
+      18,
+      27,
+      36,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 16"
+  },
+  {
+    "id": "OLL-028",
+    "family": "OLL",
+    "algorithm": "r U R' U' r' F R F' U' F R U R' U' F'",
+    "setup": "F U R U' R' F' U F R' F' r U R U' r'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      7,
+      20,
+      37,
+      38,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 13",
+    "previous_working_algorithm": "F R U R' U' F' U F U R U' R' F' U2 F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      },
+      {
+        "name": "U'",
+        "moves": "U'"
+      },
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-029",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' R U2 R2 U' R2 U' R2 U2 R",
+    "setup": "R' U2 R2 U R2 U R2 U2 R' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      2,
+      3,
+      7,
+      18,
+      20,
+      28,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 42",
+    "previous_working_algorithm": "R U2 R' U' R U' R' F U R U' R' F' F U R U' R' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "Pi",
+        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-030",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' R U R' U R U' R' U R U2 R'",
+    "setup": "R U2 R' U' R U R' U' R U' R' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      2,
+      3,
+      7,
+      28,
+      36,
+      37,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 29",
+    "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R' U2 F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "H corners",
+        "moves": "R U R' U R U' R' U R U2 R'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-031",
+    "family": "OLL",
+    "algorithm": "R U R' U R U2 R' U2 F U R U' R' F' U' F R U R' U' F'",
+    "setup": "F U R U' R' F' U F R U R' U' F' U2 R U2 R' U' R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      2,
+      6,
+      8,
+      19,
+      28,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 20"
+  },
+  {
+    "id": "OLL-032",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' F U R U' R' F' U2 F U R U' R' F'",
+    "setup": "F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      2,
+      18,
+      19,
+      20,
+      28,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 18"
+  },
+  {
+    "id": "OLL-033",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U R U2 R' U' R U' R' F U R U' R' F'",
+    "setup": "F R U R' U' F' R U R' U R U2 R' U' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      2,
+      19,
+      28,
+      36,
+      37,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 19"
+  },
+  {
+    "id": "OLL-034",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      5,
+      8,
+      18,
+      19,
+      28,
+      38
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 40"
+  },
+  {
+    "id": "OLL-035",
+    "family": "OLL",
+    "algorithm": "r U R' U' r' F R F' F R U R' U' F'",
+    "setup": "F U R U' R' F' F R' F' r U R U' r'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      5,
+      18,
+      19,
+      27,
+      28,
+      36
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 14",
+    "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' R U R' U R U2 R'",
+    "teaching_chunks": [
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      },
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-036",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R' U' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      5,
+      19,
+      20,
+      28,
+      38,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 15"
+  },
+  {
+    "id": "OLL-037",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U2 R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' U2 F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      7,
+      18,
+      27,
+      28,
+      36,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 8"
+  },
+  {
+    "id": "OLL-038",
+    "family": "OLL",
+    "algorithm": "R U2 R2 U' R2 U' R2 U2 R U F R U R' U' F'",
+    "setup": "F U R U' R' F' U' R' U2 R2 U R2 U R2 U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      7,
+      20,
+      28,
+      37,
+      38,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 11",
+    "previous_working_algorithm": "F R U R' U' F' F R U R' U' F' U F U R U' R' F'",
+    "teaching_chunks": [
+      {
+        "name": "Pi",
+        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+      },
+      {
+        "name": "U",
+        "moves": "U"
+      },
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-039",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U' R U2 R2 U' R2 U' R2 U2 R",
+    "setup": "R' U2 R2 U R2 U R2 U2 R' U F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      5,
+      7,
+      18,
+      27,
+      28,
+      36,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 9",
+    "previous_working_algorithm": "F R U R' U' F' F R U R' U' F' U' F U R U' R' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "U'",
+        "moves": "U'"
+      },
+      {
+        "name": "Pi",
+        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-040",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U' R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R' U F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      5,
+      7,
+      20,
+      28,
+      38,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 10"
+  },
+  {
+    "id": "OLL-041",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U F R U R' U' F' R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' F U R U' R' F' U' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      8,
+      18,
+      19,
+      28,
+      37,
+      38,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 17"
+  },
+  {
+    "id": "OLL-042",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U' F R U R' U' F'",
+    "setup": "F U R U' R' F' U F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      18,
+      19,
+      27,
+      28,
+      36,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 4"
+  },
+  {
+    "id": "OLL-043",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U F R U R' U' F'",
+    "setup": "F U R U' R' F' U' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      19,
+      20,
+      28,
+      37,
+      38,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 3"
+  },
+  {
+    "id": "OLL-044",
+    "family": "OLL",
+    "algorithm": "R U R' U R U' R' U R U2 R'",
+    "setup": "R U2 R' U' R U R' U' R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      5,
+      7,
+      18,
+      20,
+      27,
+      29
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 21",
+    "previous_working_algorithm": "R U R' U R U2 R' R U R' U R U2 R'",
+    "teaching_chunks": [
+      {
+        "name": "H corners",
+        "moves": "R U R' U R U' R' U R U2 R'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-045",
+    "family": "OLL",
+    "algorithm": "R U2 R2 U' R2 U' R2 U2 R",
+    "setup": "R' U2 R2 U R2 U R2 U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      5,
+      7,
+      18,
+      20,
+      38,
+      45
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 22",
+    "previous_working_algorithm": "F U R U' R' F' U2 F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Pi",
+        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-046",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U2 R U2 R2 U' R2 U' R2 U2 R",
+    "setup": "R' U2 R2 U R2 U R2 U2 R' U2 F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      18,
+      19,
+      20,
+      27,
+      29,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 54",
+    "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' U2 F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "U2",
+        "moves": "U2"
+      },
+      {
+        "name": "Pi",
+        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-047",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' U' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      18,
+      19,
+      20,
+      37,
+      38,
+      45
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 49"
+  },
+  {
+    "id": "OLL-048",
+    "family": "OLL",
+    "algorithm": "R U2 R' U' R U' R' F R U R' U' F'",
+    "setup": "F U R U' R' F' R U R' U R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      18,
+      19,
+      29,
+      36,
+      37,
+      38
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 50"
+  },
+  {
+    "id": "OLL-049",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' F R U R' U' F'",
+    "setup": "F U R U' R' F' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      19,
+      20,
+      27,
+      37,
+      45,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 48"
+  },
+  {
+    "id": "OLL-050",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' R U R' U R U2 R'",
+    "setup": "R U2 R' U' R U' R' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      19,
+      27,
+      29,
+      36,
+      37,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 47"
+  },
+  {
+    "id": "OLL-051",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' U2 r U R' U' r' F R F'",
+    "setup": "F R' F' r U R U' r' U2 F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      3,
+      19,
+      36,
+      37,
+      38,
+      45,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 53",
+    "previous_working_algorithm": "F R U R' U' F' U F U R U' R' F' R U R' U R U2 R'",
+    "teaching_chunks": [
+      {
+        "name": "Elbow",
+        "moves": "F U R U' R' F'"
+      },
+      {
+        "name": "U2",
+        "moves": "U2"
+      },
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-052",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' r U R' U' r' F R F'",
+    "setup": "F R' F' r U R U' r' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      7,
+      18,
+      20,
+      27,
+      29,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 56",
+    "previous_working_algorithm": "F U R U' R' F' U2 F R U R' U' F' F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      },
+      {
+        "name": "Chameleon",
+        "moves": "r U R' U' r' F R F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-053",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' F U R U' R' F'",
+    "setup": "F R U R' U' F' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      7,
+      18,
+      20,
+      37,
+      38,
+      45,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 51"
+  },
+  {
+    "id": "OLL-054",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U' R U2 R' U' R U' R'",
+    "setup": "R U R' U R U2 R' U F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      7,
+      18,
+      29,
+      36,
+      37,
+      38,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 52"
+  },
+  {
+    "id": "OLL-055",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' R U2 R2 U' R2 U' R2 U2 R",
+    "setup": "R' U2 R2 U R2 U R2 U2 R' F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      1,
+      7,
+      36,
+      37,
+      38,
+      45,
+      46,
+      47
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 55",
+    "previous_working_algorithm": "F R U R' U' F' U2 F U R U' R' F' U2 F R U R' U' F'",
+    "teaching_chunks": [
+      {
+        "name": "Line",
+        "moves": "F R U R' U' F'"
+      },
+      {
+        "name": "Pi",
+        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "OLL-056",
+    "family": "OLL",
+    "algorithm": "F U R U' R' F' R U R' U R U2 R' U F U R U' R' F'",
+    "setup": "F R U R' U' F' U' R U2 R' U' R U' R' F R U R' U' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      19,
+      20,
+      27,
+      28,
+      29,
+      37,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 1"
+  },
+  {
+    "id": "OLL-057",
+    "family": "OLL",
+    "algorithm": "F R U R' U' F' U2 F U R U' R' F'",
+    "setup": "F R U R' U' F' U2 F U R U' R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      19,
+      20,
+      28,
+      37,
+      38,
+      45,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "OLL 2"
+  }
+]

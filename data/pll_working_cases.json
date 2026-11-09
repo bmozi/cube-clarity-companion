@@ -1,0 +1,2609 @@
+[
+  {
+    "id": "PLL-001",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R2 U R U R' U' R' U' R' U R'",
+    "setup": "R U' R U R U R U' R' U' R2 U2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      3,
+      7,
+      8,
+      5,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Ja"
+  },
+  {
+    "id": "PLL-002",
+    "family": "PLL",
+    "algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' M2 U M2 U2 M2 U M2",
+    "setup": "M2 U' M2 U2 M2 U' M2 F R U' R' U R U R2 F' R U R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      5,
+      3,
+      8,
+      7,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "F",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2 U R U' R U R U R U' R' U' R2",
+    "teaching_chunks": [
+      {
+        "name": "T corners",
+        "moves": "R U R' U' R' F R2 U' R' U' R U R' F'"
+      },
+      {
+        "name": "H edges",
+        "moves": "M2 U M2 U2 M2 U M2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-003",
+    "family": "PLL",
+    "algorithm": "R U' R U R U R U' R' U' R2",
+    "setup": "R2 U R U R' U' R' U' R' U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      5,
+      7,
+      6,
+      3,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Ua"
+  },
+  {
+    "id": "PLL-004",
+    "family": "PLL",
+    "algorithm": "R2 U R U R' U' R' U' R' U R'",
+    "setup": "R U' R U R U R U' R' U' R2",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      7,
+      3,
+      6,
+      5,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Ub"
+  },
+  {
+    "id": "PLL-005",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2",
+    "setup": "R2 U R U R' U' R' U' R' U R' R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      2,
+      7,
+      5,
+      8,
+      3,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Jb"
+  },
+  {
+    "id": "PLL-006",
+    "family": "PLL",
+    "algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' M2 U M2 U M' U2 M2 U2 M' U2",
+    "setup": "U2 M U2 M2 U2 M U' M2 U' M2 F R U' R' U R U R2 F' R U R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      3,
+      5,
+      8,
+      7,
+      2
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Aa",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "T corners",
+        "moves": "R U R' U' R' F R2 U' R' U' R U R' F'"
+      },
+      {
+        "name": "Z edges",
+        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-007",
+    "family": "PLL",
+    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L R2 U R U R' U' R' U' R' U R'",
+    "setup": "R U' R U R U R U' R' U' R2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      3,
+      7,
+      2,
+      5,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "V",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U R U' R U R U R U' R' U' R2 U F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Diagonal corners",
+        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+      },
+      {
+        "name": "Ub",
+        "moves": "R2 U R U R' U' R' U' R' U R'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-008",
+    "family": "PLL",
+    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L M2 U M2 U2 M2 U M2",
+    "setup": "M2 U' M2 U2 M2 U' M2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      5,
+      3,
+      2,
+      7,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Na",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U F R U' R' U R U R2 F' R U R U' R' U' F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Diagonal corners",
+        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+      },
+      {
+        "name": "H edges",
+        "moves": "M2 U M2 U2 M2 U M2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-009",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U R U' R U R U R U' R' U' R2",
+    "setup": "R2 U R U R' U' R' U' R' U R' U' R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      5,
+      7,
+      8,
+      3,
+      2
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Ga"
+  },
+  {
+    "id": "PLL-010",
+    "family": "PLL",
+    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L R U' R U R U R U' R' U' R2",
+    "setup": "R2 U R U R' U' R' U' R' U R' L' U R' U2 L U' R L' U R' U2 L U' R",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      6,
+      7,
+      5,
+      2,
+      3,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Y",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2 U2 F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Diagonal corners",
+        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+      },
+      {
+        "name": "Ua",
+        "moves": "R U' R U R U R U' R' U' R2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-011",
+    "family": "PLL",
+    "algorithm": "M2 U M2 U M' U2 M2 U2 M' U2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "setup": "F R U' R' U R U R2 F' R U R U' R' U2 M U2 M2 U2 M U' M2 U' M2",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      8,
+      3,
+      5,
+      2,
+      7,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Ab",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Z edges",
+        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+      },
+      {
+        "name": "T corners",
+        "moves": "R U R' U' R' F R2 U' R' U' R U R' F'"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-012",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R'",
+    "setup": "R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      8,
+      5,
+      3,
+      6,
+      7,
+      2
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "T"
+  },
+  {
+    "id": "PLL-013",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R U' R U R U R U' R' U' R2",
+    "setup": "R2 U R U R' U' R' U' R' U R' U R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      8,
+      7,
+      3,
+      2,
+      5,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Gb"
+  },
+  {
+    "id": "PLL-014",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' R2 U R U R' U' R' U' R' U R'",
+    "setup": "R U' R U R U R U' R' U' R2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      1,
+      8,
+      7,
+      5,
+      6,
+      3,
+      2
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Rb"
+  },
+  {
+    "id": "PLL-015",
+    "family": "PLL",
+    "algorithm": "M2 U M2 U M' U2 M2 U2 M' U2",
+    "setup": "U2 M U2 M2 U2 M U' M2 U' M2",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      2,
+      1,
+      7,
+      6,
+      5,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Z",
+    "previous_working_algorithm": "R U' R U R U R U' R' U' R2 U' R U' R U R U R U' R' U' R2",
+    "teaching_chunks": [
+      {
+        "name": "Z edges",
+        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-016",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R2 U R U R' U' R' U' R' U R'",
+    "setup": "R U' R U R U R U' R' U' R2 U R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      2,
+      5,
+      7,
+      8,
+      1,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Gd"
+  },
+  {
+    "id": "PLL-017",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R U' R U R U R U' R' U' R2",
+    "setup": "R2 U R U R' U' R' U' R' U R' U2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      6,
+      5,
+      1,
+      8,
+      7,
+      2
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Ra"
+  },
+  {
+    "id": "PLL-018",
+    "family": "PLL",
+    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L M2 U M2 U M' U2 M2 U2 M' U2",
+    "setup": "U2 M U2 M2 U2 M U' M2 U' M2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      3,
+      6,
+      7,
+      1,
+      2,
+      5,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "E",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Diagonal corners",
+        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+      },
+      {
+        "name": "Z edges",
+        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-019",
+    "family": "PLL",
+    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U R2 U R U R' U' R' U' R' U R'",
+    "setup": "R U' R U R U R U' R' U' R2 U' R U R' U' R' F R2 U' R' U' R U R' F'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      7,
+      2,
+      1,
+      3,
+      8,
+      5,
+      6
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Gc"
+  },
+  {
+    "id": "PLL-020",
+    "family": "PLL",
+    "algorithm": "M2 U M2 U2 M2 U M2",
+    "setup": "M2 U' M2 U2 M2 U' M2",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      7,
+      2,
+      5,
+      3,
+      6,
+      1,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "H",
+    "previous_working_algorithm": "R U' R U R U R U' R' U' R2 U R U' R U R U R U' R' U' R2",
+    "teaching_chunks": [
+      {
+        "name": "H edges",
+        "moves": "M2 U M2 U2 M2 U M2"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  },
+  {
+    "id": "PLL-021",
+    "family": "PLL",
+    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L",
+    "setup": "L' U R' U2 L U' R L' U R' U2 L U' R",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      7,
+      6,
+      3,
+      5,
+      2,
+      1,
+      8
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "standard_label": "Nb",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' F R U' R' U R U R2 F' R U R U' R' U F R U' R' U R U R2 F' R U R U' R'",
+    "teaching_chunks": [
+      {
+        "name": "Diagonal corners",
+        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+      }
+    ],
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+  }
+]

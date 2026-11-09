@@ -1,0 +1,1056 @@
+{
+  "corner_engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+  "edge_engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+  "parity_algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' U2 R U' R U R U R U' R' U' R2 U2",
+  "letter_map": {
+    "edge": {
+      "UB": "A",
+      "UR": "B",
+      "UF": "C",
+      "UL": "D",
+      "LU": "E",
+      "LF": "F",
+      "LD": "G",
+      "LB": "H",
+      "FU": "I",
+      "FR": "J",
+      "FD": "K",
+      "FL": "L",
+      "RU": "M",
+      "RB": "N",
+      "RD": "O",
+      "RF": "P",
+      "BU": "Q",
+      "BL": "R",
+      "BD": "S",
+      "BR": "T",
+      "DF": "U",
+      "DR": "V",
+      "DB": "W",
+      "DL": "X"
+    },
+    "corner": {
+      "ULB": "A",
+      "URB": "B",
+      "URF": "C",
+      "ULF": "D",
+      "LUB": "E",
+      "LUF": "F",
+      "LDF": "G",
+      "LDB": "H",
+      "FUL": "I",
+      "FUR": "J",
+      "FDR": "K",
+      "FDL": "L",
+      "RUF": "M",
+      "RUB": "N",
+      "RDB": "O",
+      "RDF": "P",
+      "BUR": "Q",
+      "BUL": "R",
+      "BDL": "S",
+      "BDR": "T",
+      "DLF": "U",
+      "DRF": "V",
+      "DRB": "W",
+      "DLB": "X"
+    }
+  },
+  "edge": {
+    "UL": {
+      "letter": "D",
+      "setup": "",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "",
+      "algorithm": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "virtual_exchanges": [
+        [
+          "D",
+          "B"
+        ],
+        [
+          "M",
+          "E"
+        ]
+      ]
+    },
+    "FL": {
+      "letter": "L",
+      "setup": "L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L",
+      "algorithm": "L' R U R' U' R' F R2 U' R' U' R U R' F' L",
+      "virtual_exchanges": [
+        [
+          "B",
+          "L"
+        ],
+        [
+          "M",
+          "F"
+        ]
+      ]
+    },
+    "BL": {
+      "letter": "R",
+      "setup": "L",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L'",
+      "algorithm": "L R U R' U' R' F R2 U' R' U' R U R' F' L'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "R"
+        ],
+        [
+          "M",
+          "H"
+        ]
+      ]
+    },
+    "DL": {
+      "letter": "X",
+      "setup": "L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2",
+      "algorithm": "L2 R U R' U' R' F R2 U' R' U' R U R' F' L2",
+      "virtual_exchanges": [
+        [
+          "B",
+          "X"
+        ],
+        [
+          "M",
+          "G"
+        ]
+      ]
+    },
+    "RF": {
+      "letter": "P",
+      "setup": "d' L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L d",
+      "algorithm": "d' L' R U R' U' R' F R2 U' R' U' R U R' F' L d",
+      "virtual_exchanges": [
+        [
+          "B",
+          "P"
+        ],
+        [
+          "J",
+          "M"
+        ]
+      ]
+    },
+    "LB": {
+      "letter": "H",
+      "setup": "d L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L d'",
+      "algorithm": "d L' R U R' U' R' F R2 U' R' U' R U R' F' L d'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "H"
+        ],
+        [
+          "R",
+          "M"
+        ]
+      ]
+    },
+    "BR": {
+      "letter": "T",
+      "setup": "d2 L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L d2",
+      "algorithm": "d2 L' R U R' U' R' F R2 U' R' U' R U R' F' L d2",
+      "virtual_exchanges": [
+        [
+          "B",
+          "T"
+        ],
+        [
+          "M",
+          "N"
+        ]
+      ]
+    },
+    "LF": {
+      "letter": "F",
+      "setup": "d' L",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L' d",
+      "algorithm": "d' L R U R' U' R' F R2 U' R' U' R U R' F' L' d",
+      "virtual_exchanges": [
+        [
+          "B",
+          "F"
+        ],
+        [
+          "L",
+          "M"
+        ]
+      ]
+    },
+    "RB": {
+      "letter": "N",
+      "setup": "d L",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L' d'",
+      "algorithm": "d L R U R' U' R' F R2 U' R' U' R U R' F' L' d'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "N"
+        ],
+        [
+          "T",
+          "M"
+        ]
+      ]
+    },
+    "FR": {
+      "letter": "J",
+      "setup": "d2 L",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L' d2",
+      "algorithm": "d2 L R U R' U' R' F R2 U' R' U' R U R' F' L' d2",
+      "virtual_exchanges": [
+        [
+          "B",
+          "J"
+        ],
+        [
+          "M",
+          "P"
+        ]
+      ]
+    },
+    "DF": {
+      "letter": "U",
+      "setup": "d' L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d",
+      "algorithm": "d' L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d",
+      "virtual_exchanges": [
+        [
+          "B",
+          "U"
+        ],
+        [
+          "K",
+          "M"
+        ]
+      ]
+    },
+    "DB": {
+      "letter": "W",
+      "setup": "d L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d'",
+      "algorithm": "d L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "W"
+        ],
+        [
+          "S",
+          "M"
+        ]
+      ]
+    },
+    "DR": {
+      "letter": "V",
+      "setup": "d2 L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d2",
+      "algorithm": "d2 L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d2",
+      "virtual_exchanges": [
+        [
+          "B",
+          "V"
+        ],
+        [
+          "M",
+          "O"
+        ]
+      ]
+    },
+    "LU": {
+      "letter": "E",
+      "setup": "L' d L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L d' L",
+      "algorithm": "L' d L' R U R' U' R' F R2 U' R' U' R U R' F' L d' L",
+      "virtual_exchanges": [
+        [
+          "D",
+          "M"
+        ],
+        [
+          "B",
+          "E"
+        ]
+      ]
+    },
+    "LD": {
+      "letter": "G",
+      "setup": "L d L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L d' L'",
+      "algorithm": "L d L' R U R' U' R' F R2 U' R' U' R U R' F' L d' L'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "G"
+        ],
+        [
+          "X",
+          "M"
+        ]
+      ]
+    },
+    "BD": {
+      "letter": "S",
+      "setup": "l' d' L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d l",
+      "algorithm": "l' d' L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d l",
+      "virtual_exchanges": [
+        [
+          "B",
+          "S"
+        ],
+        [
+          "W",
+          "M"
+        ]
+      ]
+    },
+    "FU": {
+      "letter": "I",
+      "setup": "l d' L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d l'",
+      "algorithm": "l d' L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d l'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "I"
+        ],
+        [
+          "C",
+          "M"
+        ]
+      ]
+    },
+    "UB": {
+      "letter": "A",
+      "setup": "l2 d' L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d l2",
+      "algorithm": "l2 d' L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d l2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "Q",
+          "M"
+        ]
+      ]
+    },
+    "BU": {
+      "letter": "Q",
+      "setup": "l' d L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d' l",
+      "algorithm": "l' d L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d' l",
+      "virtual_exchanges": [
+        [
+          "A",
+          "M"
+        ],
+        [
+          "B",
+          "Q"
+        ]
+      ]
+    },
+    "FD": {
+      "letter": "K",
+      "setup": "l d L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d' l'",
+      "algorithm": "l d L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d' l'",
+      "virtual_exchanges": [
+        [
+          "B",
+          "K"
+        ],
+        [
+          "U",
+          "M"
+        ]
+      ]
+    },
+    "UF": {
+      "letter": "C",
+      "setup": "l2 d L2",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L2 d' l2",
+      "algorithm": "l2 d L2 R U R' U' R' F R2 U' R' U' R U R' F' L2 d' l2",
+      "virtual_exchanges": [
+        [
+          "B",
+          "C"
+        ],
+        [
+          "I",
+          "M"
+        ]
+      ]
+    },
+    "RD": {
+      "letter": "O",
+      "setup": "d2 L d L'",
+      "engine": "R U R' U' R' F R2 U' R' U' R U R' F'",
+      "undo": "L d' L' d2",
+      "algorithm": "d2 L d L' R U R' U' R' F R2 U' R' U' R U R' F' L d' L' d2",
+      "virtual_exchanges": [
+        [
+          "B",
+          "O"
+        ],
+        [
+          "V",
+          "M"
+        ]
+      ]
+    }
+  },
+  "corner": {
+    "RDF": {
+      "letter": "P",
+      "setup": "",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "",
+      "algorithm": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "virtual_exchanges": [
+        [
+          "A",
+          "P"
+        ],
+        [
+          "V",
+          "E"
+        ],
+        [
+          "K",
+          "R"
+        ]
+      ]
+    },
+    "DLF": {
+      "letter": "U",
+      "setup": "F'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F",
+      "algorithm": "F' R U' R' U' R U R' F' R U R' U' R' F R F",
+      "virtual_exchanges": [
+        [
+          "A",
+          "U"
+        ],
+        [
+          "L",
+          "R"
+        ],
+        [
+          "E",
+          "G"
+        ]
+      ]
+    },
+    "URF": {
+      "letter": "C",
+      "setup": "F",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F'",
+      "algorithm": "F R U' R' U' R U R' F' R U R' U' R' F R F'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "C"
+        ],
+        [
+          "J",
+          "R"
+        ],
+        [
+          "M",
+          "E"
+        ]
+      ]
+    },
+    "LUF": {
+      "letter": "F",
+      "setup": "F2",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F2",
+      "algorithm": "F2 R U' R' U' R U R' F' R U R' U' R' F R F2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "F"
+        ],
+        [
+          "D",
+          "E"
+        ],
+        [
+          "I",
+          "R"
+        ]
+      ]
+    },
+    "RUF": {
+      "letter": "M",
+      "setup": "R'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "R",
+      "algorithm": "R' R U' R' U' R U R' F' R U R' U' R' F R R",
+      "virtual_exchanges": [
+        [
+          "A",
+          "M"
+        ],
+        [
+          "C",
+          "R"
+        ],
+        [
+          "J",
+          "E"
+        ]
+      ]
+    },
+    "RDB": {
+      "letter": "O",
+      "setup": "R",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "R'",
+      "algorithm": "R R U' R' U' R U R' F' R U R' U' R' F R R'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "O"
+        ],
+        [
+          "W",
+          "R"
+        ],
+        [
+          "T",
+          "E"
+        ]
+      ]
+    },
+    "RUB": {
+      "letter": "N",
+      "setup": "R2",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "R2",
+      "algorithm": "R2 R U' R' U' R U R' F' R U R' U' R' F R R2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "N"
+        ],
+        [
+          "B",
+          "E"
+        ],
+        [
+          "Q",
+          "R"
+        ]
+      ]
+    },
+    "BDR": {
+      "letter": "T",
+      "setup": "D'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "D",
+      "algorithm": "D' R U' R' U' R U R' F' R U R' U' R' F R D",
+      "virtual_exchanges": [
+        [
+          "A",
+          "T"
+        ],
+        [
+          "W",
+          "E"
+        ],
+        [
+          "R",
+          "O"
+        ]
+      ]
+    },
+    "FDL": {
+      "letter": "L",
+      "setup": "D",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "D'",
+      "algorithm": "D R U' R' U' R U R' F' R U R' U' R' F R D'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "L"
+        ],
+        [
+          "U",
+          "E"
+        ],
+        [
+          "R",
+          "G"
+        ]
+      ]
+    },
+    "LDB": {
+      "letter": "H",
+      "setup": "D2",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "D2",
+      "algorithm": "D2 R U' R' U' R U R' F' R U R' U' R' F R D2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "H"
+        ],
+        [
+          "X",
+          "E"
+        ],
+        [
+          "R",
+          "S"
+        ]
+      ]
+    },
+    "DRF": {
+      "letter": "V",
+      "setup": "D' F'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F D",
+      "algorithm": "D' F' R U' R' U' R U R' F' R U R' U' R' F R F D",
+      "virtual_exchanges": [
+        [
+          "A",
+          "V"
+        ],
+        [
+          "K",
+          "E"
+        ],
+        [
+          "R",
+          "P"
+        ]
+      ]
+    },
+    "DLB": {
+      "letter": "X",
+      "setup": "D F'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F D'",
+      "algorithm": "D F' R U' R' U' R U R' F' R U R' U' R' F R F D'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "X"
+        ],
+        [
+          "R",
+          "H"
+        ],
+        [
+          "S",
+          "E"
+        ]
+      ]
+    },
+    "DRB": {
+      "letter": "W",
+      "setup": "D2 F'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F D2",
+      "algorithm": "D2 F' R U' R' U' R U R' F' R U R' U' R' F R F D2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "W"
+        ],
+        [
+          "R",
+          "T"
+        ],
+        [
+          "O",
+          "E"
+        ]
+      ]
+    },
+    "BUR": {
+      "letter": "Q",
+      "setup": "R' F",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F' R",
+      "algorithm": "R' F R U' R' U' R U R' F' R U R' U' R' F R F' R",
+      "virtual_exchanges": [
+        [
+          "A",
+          "Q"
+        ],
+        [
+          "B",
+          "R"
+        ],
+        [
+          "N",
+          "E"
+        ]
+      ]
+    },
+    "FDR": {
+      "letter": "K",
+      "setup": "R F",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "F' R'",
+      "algorithm": "R F R U' R' U' R U R' F' R U R' U' R' F R F' R'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "K"
+        ],
+        [
+          "V",
+          "R"
+        ],
+        [
+          "P",
+          "E"
+        ]
+      ]
+    },
+    "ULF": {
+      "letter": "D",
+      "setup": "F R'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "R F'",
+      "algorithm": "F R' R U' R' U' R U R' F' R U R' U' R' F R R F'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "D"
+        ],
+        [
+          "I",
+          "E"
+        ],
+        [
+          "R",
+          "F"
+        ]
+      ]
+    },
+    "LDF": {
+      "letter": "G",
+      "setup": "F2 R'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "R F2",
+      "algorithm": "F2 R' R U' R' U' R U R' F' R U R' U' R' F R R F2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "G"
+        ],
+        [
+          "U",
+          "R"
+        ],
+        [
+          "L",
+          "E"
+        ]
+      ]
+    },
+    "BDL": {
+      "letter": "S",
+      "setup": "D' R",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "R' D",
+      "algorithm": "D' R R U' R' U' R U R' F' R U R' U' R' F R R' D",
+      "virtual_exchanges": [
+        [
+          "A",
+          "S"
+        ],
+        [
+          "X",
+          "R"
+        ],
+        [
+          "E",
+          "H"
+        ]
+      ]
+    },
+    "URB": {
+      "letter": "B",
+      "setup": "R D'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "D R'",
+      "algorithm": "R D' R U' R' U' R U R' F' R U R' U' R' F R D R'",
+      "virtual_exchanges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "Q",
+          "E"
+        ],
+        [
+          "R",
+          "N"
+        ]
+      ]
+    },
+    "FUR": {
+      "letter": "J",
+      "setup": "R2 D'",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "D R2",
+      "algorithm": "R2 D' R U' R' U' R U R' F' R U R' U' R' F R D R2",
+      "virtual_exchanges": [
+        [
+          "A",
+          "J"
+        ],
+        [
+          "C",
+          "E"
+        ],
+        [
+          "R",
+          "M"
+        ]
+      ]
+    },
+    "FUL": {
+      "letter": "I",
+      "setup": "F' D",
+      "engine": "R U' R' U' R U R' F' R U R' U' R' F R",
+      "undo": "D' F",
+      "algorithm": "F' D R U' R' U' R U R' F' R U R' U' R' F R D' F",
+      "virtual_exchanges": [
+        [
+          "A",
+          "I"
+        ],
+        [
+          "D",
+          "R"
+        ],
+        [
+          "E",
+          "F"
+        ]
+      ]
+    }
+  },
+  "worked_examples": [
+    {
+      "title": "Even target count",
+      "scramble": "R U F2 L' D",
+      "plan": {
+        "edges": {
+          "targets": [
+            "UB",
+            "UL",
+            "DR",
+            "FR",
+            "FL",
+            "DL",
+            "DB",
+            "BR",
+            "UF",
+            "DF",
+            "BL",
+            "UF"
+          ],
+          "cycle_breaks": [
+            8
+          ],
+          "letters": [
+            "A",
+            "D",
+            "V",
+            "J",
+            "L",
+            "X",
+            "W",
+            "T",
+            "C",
+            "U",
+            "R",
+            "C"
+          ]
+        },
+        "corners": {
+          "targets": [
+            "DRB",
+            "FDR",
+            "LDB",
+            "URB",
+            "ULF",
+            "RUF",
+            "LDF",
+            "ULF"
+          ],
+          "cycle_breaks": [
+            4
+          ],
+          "letters": [
+            "W",
+            "K",
+            "H",
+            "B",
+            "D",
+            "M",
+            "G",
+            "D"
+          ]
+        },
+        "parity": false
+      }
+    },
+    {
+      "title": "Odd target count",
+      "scramble": "F",
+      "plan": {
+        "edges": {
+          "targets": [
+            "UF",
+            "LF",
+            "DF",
+            "RF",
+            "UF"
+          ],
+          "cycle_breaks": [
+            0
+          ],
+          "letters": [
+            "C",
+            "F",
+            "U",
+            "P",
+            "C"
+          ]
+        },
+        "corners": {
+          "targets": [
+            "ULF",
+            "LDF",
+            "DRF",
+            "RUF",
+            "ULF"
+          ],
+          "cycle_breaks": [
+            0
+          ],
+          "letters": [
+            "D",
+            "G",
+            "V",
+            "M",
+            "D"
+          ]
+        },
+        "parity": true
+      }
+    },
+    {
+      "title": "Independent transfer",
+      "scramble": "R2 F U' L2 D B' R U2 F2 L'",
+      "plan": {
+        "edges": {
+          "targets": [
+            "DL",
+            "UB",
+            "UL",
+            "RB",
+            "FL",
+            "DB",
+            "RF",
+            "LB",
+            "UF",
+            "UB",
+            "DR",
+            "RD"
+          ],
+          "cycle_breaks": [
+            1,
+            10
+          ],
+          "letters": [
+            "X",
+            "A",
+            "D",
+            "N",
+            "L",
+            "W",
+            "P",
+            "H",
+            "C",
+            "A",
+            "V",
+            "O"
+          ]
+        },
+        "corners": {
+          "targets": [
+            "FUL",
+            "FUR",
+            "URB",
+            "DLB",
+            "DRF",
+            "DLF",
+            "DRB",
+            "BUR"
+          ],
+          "cycle_breaks": [
+            2
+          ],
+          "letters": [
+            "I",
+            "J",
+            "B",
+            "X",
+            "V",
+            "U",
+            "W",
+            "Q"
+          ]
+        },
+        "parity": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3241 @@
+[
+  {
+    "id": "F2L-001",
+    "family": "F2L",
+    "algorithm": "F' U' F R U2 R' F' U' F",
+    "setup": "F' U F R U2 R' F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      1,
+      28
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-002",
+    "family": "F2L",
+    "algorithm": "R U2 R' U' R U R'",
+    "setup": "R U' R' U R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      3,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-003",
+    "family": "F2L",
+    "algorithm": "F' U' F R U R'",
+    "setup": "R U' R' F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      5,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-004",
+    "family": "F2L",
+    "algorithm": "R U2 R' U2 R U2 R'",
+    "setup": "R U2 R' U2 R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      7,
+      19
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-005",
+    "family": "F2L",
+    "algorithm": "R U R' F' U' F",
+    "setup": "F' U F R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      19,
+      7
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-006",
+    "family": "F2L",
+    "algorithm": "F' U F U' R U R' F' U' F",
+    "setup": "F' U F R U' R' U F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      23,
+      39
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-007",
+    "family": "F2L",
+    "algorithm": "F' U2 F U F' U' F",
+    "setup": "F' U F U' F' U2 F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      28,
+      1
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-008",
+    "family": "F2L",
+    "algorithm": "F' U2 F U' F' U F",
+    "setup": "F' U' F U F' U2 F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      37,
+      5
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-009",
+    "family": "F2L",
+    "algorithm": "F' U F R U2 R'",
+    "setup": "R U2 R' F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      39,
+      23
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-010",
+    "family": "F2L",
+    "algorithm": "F' U' F R U' R' F' U' F",
+    "setup": "F' U F R U R' F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      0,
+      45,
+      29,
+      46,
+      3
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-011",
+    "family": "F2L",
+    "algorithm": "F' U F U2 R U2 R'",
+    "setup": "R U2 R' U2 F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      11,
+      26,
+      42,
+      1,
+      28
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-012",
+    "family": "F2L",
+    "algorithm": "R U' R' U' F' U F",
+    "setup": "F' U' F U R U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      11,
+      26,
+      42,
+      19,
+      7
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-013",
+    "family": "F2L",
+    "algorithm": "F' U F U' R U2 R' U' R U2 R'",
+    "setup": "R U2 R' U R U2 R' U F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      11,
+      26,
+      42,
+      39,
+      23
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-014",
+    "family": "F2L",
+    "algorithm": "F' U F U' R U R'",
+    "setup": "R U' R' U F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      1,
+      28
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-015",
+    "family": "F2L",
+    "algorithm": "F' U2 F U' R U R'",
+    "setup": "R U' R' U F' U2 F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      3,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-016",
+    "family": "F2L",
+    "algorithm": "R U R'",
+    "setup": "R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      5,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-017",
+    "family": "F2L",
+    "algorithm": "R U' R' U R U R'",
+    "setup": "R U' R' U' R U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      7,
+      19
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-018",
+    "family": "F2L",
+    "algorithm": "R U' R' U2 F' U' F",
+    "setup": "F' U F U2 R U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      19,
+      7
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-019",
+    "family": "F2L",
+    "algorithm": "F' U F U2 F' U F",
+    "setup": "F' U' F U2 F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      23,
+      39
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-020",
+    "family": "F2L",
+    "algorithm": "F' U' F U2 F' U F",
+    "setup": "F' U' F U2 F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      28,
+      1
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-021",
+    "family": "F2L",
+    "algorithm": "F' U2 F U2 F' U F",
+    "setup": "F' U' F U2 F' U2 F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      37,
+      5
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-022",
+    "family": "F2L",
+    "algorithm": "F' U' F U' R U R'",
+    "setup": "R U' R' U F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      39,
+      23
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-023",
+    "family": "F2L",
+    "algorithm": "F' U F",
+    "setup": "F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      18,
+      47,
+      6,
+      46,
+      3
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-024",
+    "family": "F2L",
+    "algorithm": "R U R' U' R U2 R'",
+    "setup": "R U2 R' U R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      1,
+      28
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-025",
+    "family": "F2L",
+    "algorithm": "R U2 R' U' R U2 R'",
+    "setup": "R U2 R' U R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      3,
+      46
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-026",
+    "family": "F2L",
+    "algorithm": "R U' R'",
+    "setup": "R U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      5,
+      37
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-027",
+    "family": "F2L",
+    "algorithm": "F' U F U2 R U R'",
+    "setup": "R U' R' U2 F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      7,
+      19
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-028",
+    "family": "F2L",
+    "algorithm": "F' U F U' F' U' F",
+    "setup": "F' U F U F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      19,
+      7
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-029",
+    "family": "F2L",
+    "algorithm": "F' U' F U2 F' U' F",
+    "setup": "F' U F U2 F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      23,
+      39
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-030",
+    "family": "F2L",
+    "algorithm": "F' U F U F' U' F",
+    "setup": "F' U F U' F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      28,
+      1
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-031",
+    "family": "F2L",
+    "algorithm": "R U2 R' U F' U' F",
+    "setup": "F' U F U' R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      37,
+      5
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-032",
+    "family": "F2L",
+    "algorithm": "R U R' U F' U' F",
+    "setup": "F' U F U' R U' R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      39,
+      23
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-033",
+    "family": "F2L",
+    "algorithm": "F' U' F",
+    "setup": "F' U F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      20,
+      8,
+      36,
+      46,
+      3
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-034",
+    "family": "F2L",
+    "algorithm": "F' U2 F R U2 R'",
+    "setup": "R U2 R' F' U2 F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          1,
+          0
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      26,
+      42,
+      11,
+      1,
+      28
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-035",
+    "family": "F2L",
+    "algorithm": "R U' R' F' U' F",
+    "setup": "F' U F R U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          0,
+          -1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          -1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      26,
+      42,
+      11,
+      19,
+      7
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-036",
+    "family": "F2L",
+    "algorithm": "R U2 R' U2 R U2 R' U' R U R'",
+    "setup": "R U' R' U R U2 R' U2 R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      26,
+      42,
+      11,
+      23,
+      39
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-037",
+    "family": "F2L",
+    "algorithm": "F' U F R U' R' U2 R U R'",
+    "setup": "R U' R' U2 R U R' F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      26,
+      42,
+      11,
+      39,
+      23
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-038",
+    "family": "F2L",
+    "algorithm": "F' U F R U R'",
+    "setup": "R U' R' F' U' F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -1,
+          1,
+          0
+        ],
+        "face_normal": [
+          -1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      42,
+      11,
+      26,
+      1,
+      28
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-039",
+    "family": "F2L",
+    "algorithm": "R U2 R' F' U2 F",
+    "setup": "F' U2 F R U2 R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          0,
+          1,
+          1
+        ],
+        "face_normal": [
+          0,
+          1,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      42,
+      11,
+      26,
+      19,
+      7
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-040",
+    "family": "F2L",
+    "algorithm": "F' U2 F U2 F' U2 F U F' U' F",
+    "setup": "F' U F U' F' U2 F U2 F' U2 F",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "canonical_key": [
+      42,
+      11,
+      26,
+      23,
+      39
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  },
+  {
+    "id": "F2L-041",
+    "family": "F2L",
+    "algorithm": "R U' R' F' U F U2 F' U' F",
+    "setup": "F' U F U2 F' U' F R U R'",
+    "tracked_stickers": [
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          -1,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          -1,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "position": [
+          1,
+          0,
+          1
+        ],
+        "face_normal": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "canonical_key": [
+      42,
+      11,
+      26,
+      39,
+      23
+    ],
+    "status": "mechanically-verified-working-route",
+    "human_ergonomics_review": "pending",
+    "standard_case_number_mapping": "pending",
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+  }
+]
