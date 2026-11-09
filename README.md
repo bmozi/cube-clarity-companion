@@ -11,6 +11,10 @@ python3 examples/solve_cube.py --scramble "R U F2"
 python3 -m unittest discover -s tests -v
 ```
 
+The book writes `python` in its sample command. On macOS and Linux, use
+`python3`; on Windows, use `python` or `py` if that is what your installer
+provides. All refer to the same Python 3 program.
+
 Start with a solved cube, keep yellow up and green front, and make the scramble.
 The program returns a legal move sequence; apply that sequence and inspect all
 six faces. A different valid solution can be correct. An incomplete result means
