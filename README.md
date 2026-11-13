@@ -8,8 +8,14 @@ Download and extract the ZIP, open a terminal in this folder, then run:
 
 ```sh
 python3 examples/solve_cube.py --scramble "R U F2"
+python3 examples/pocket_practice.py --scramble "R U F2"
 python3 -m unittest discover -s tests -v
 ```
+
+The 2×2 pocket practice command prints the complete Chapter 16 worked route.
+Its y rows turn the whole puzzle; other letters turn one face. It checks all
+24 corner stickers in the final rotated frame. This is a learning route, not
+a shortest-solution or competition-speed claim.
 
 The book writes `python` in its sample command. On macOS and Linux, use
 `python3`; on Windows, use `python` or `py` if that is what your installer
