@@ -1,0 +1,39 @@
+[
+  {
+    "name": "A ready-made pair",
+    "atlas_id": "F2L-026",
+    "groups": [
+      "R U' R'"
+    ],
+    "question": "Which two pieces must travel together?"
+  },
+  {
+    "name": "Separate pieces: join then insert",
+    "atlas_id": "F2L-016",
+    "groups": [
+      "R U R'"
+    ],
+    "question": "Why does the front opening reach this pair?",
+    "picture_moves": "R",
+    "picture_label": "After R: slot open"
+  },
+  {
+    "name": "White faces up",
+    "atlas_id": "F2L-002",
+    "groups": [
+      "R U2 R'",
+      "U'",
+      "R U R'"
+    ],
+    "question": "What changes after the first open-move-close group?"
+  },
+  {
+    "name": "The edge is trapped",
+    "atlas_id": "F2L-009",
+    "groups": [
+      "F' U F",
+      "R U2 R'"
+    ],
+    "question": "Which piece must leave the working slot before the pair can return?"
+  }
+]

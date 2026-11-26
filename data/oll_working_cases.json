@@ -120,11 +120,21 @@
     "previous_working_algorithm": "R U R' U R U2 R' U R U2 R' U' R U' R'",
     "teaching_chunks": [
       {
-        "name": "Headlights",
-        "moves": "R2 D R' U2 R D' R' U2 R'"
+        "name": "Read group",
+        "moves": "R2 D R' U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R D' R' U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "R2 D R' U2 R D' R' U2 R'",
+    "before_atlas_redesign_setup": "R U2 R D R' U2 R D' R2"
   },
   {
     "id": "OLL-002",
@@ -247,17 +257,23 @@
     "previous_working_algorithm": "R U R' U R U2 R' U' R U2 R' U' R U' R'",
     "teaching_chunks": [
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Read group",
+        "moves": "r U R' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r' F R F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "r U R' U' r' F R F'",
+    "before_atlas_redesign_setup": "F R' F' r U R U' r'"
   },
   {
     "id": "OLL-003",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U2 F R U R' U' F'",
-    "setup": "F U R U' R' F' U2 F U R U' R' F'",
+    "algorithm": "r U R' U' M U R U' R'",
+    "setup": "R U R' U' M' U R U' r'",
     "tracked_stickers": [
       {
         "position": [
@@ -370,13 +386,36 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 28"
+    "standard_label": "OLL 28",
+    "previous_working_algorithm": "F R U R' U' F' U2 F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U2 F R U R' U' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r U R' U') M (U R U' R')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "r U R' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "M U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' U2 F U R U' R' F'"
   },
   {
     "id": "OLL-004",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' R U2 R' U' R U' R'",
-    "setup": "R U R' U R U2 R' F R U R' U' F'",
+    "algorithm": "R' U' F' U F R",
+    "setup": "R' F' U' F U R",
     "tracked_stickers": [
       {
         "position": [
@@ -489,13 +528,32 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 43"
+    "standard_label": "OLL 43",
+    "previous_working_algorithm": "F U R U' R' F' R U2 R' U' R U' R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' R U2 R' U' R U' R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "y R' U' F' U F R"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "R' U' F' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F R"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U R' U R U2 R' F R U R' U' F'"
   },
   {
     "id": "OLL-005",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' F' r U R' U' r' F R",
-    "setup": "R' F' r U R U' r' F F R U R' U' F'",
+    "algorithm": "U R' U' F U R U' R' F' R",
+    "setup": "R' F R U R' U' F' U R U'",
     "tracked_stickers": [
       {
         "position": [
@@ -612,15 +670,30 @@
     "previous_working_algorithm": "R U R' U R U2 R' F U R U' R' F' F U R U' R' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Top turn",
+        "moves": "U"
       },
       {
-        "name": "Bowtie",
-        "moves": "F' r U R' U' r' F R"
+        "name": "Read group",
+        "moves": "R' U' F U"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' R"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' F' r U R' U' r' F R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R' U' F) (U R U' R') F' R"
+    },
+    "before_atlas_redesign_setup": "R' F' r U R U' r' F F R U R' U' F'"
   },
   {
     "id": "OLL-006",
@@ -739,13 +812,25 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 44"
+    "standard_label": "OLL 44",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F U R U' R' F'",
+    "before_atlas_redesign_setup": "F R U R' U' F'"
   },
   {
     "id": "OLL-007",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' r U R' U' r' F R F'",
-    "setup": "F R' F' r U R U' r' F R U R' U' F'",
+    "algorithm": "U2 R U B' U' R' U R B R'",
+    "setup": "R B' R' U' R U B U' R' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -862,21 +947,36 @@
     "previous_working_algorithm": "R U2 R' U' R U' R' R U2 R' U' R U' R' F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Top turn",
+        "moves": "U2"
       },
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Read group",
+        "moves": "R U B' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R B"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' r U R' U' r' F R F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "R U B' (U' R' U) (R B R')"
+    },
+    "before_atlas_redesign_setup": "F R' F' r U R U' r' F R U R' U' F'"
   },
   {
     "id": "OLL-008",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U2 F U R U' R' F'",
-    "setup": "F R U R' U' F' U2 F R U R' U' F'",
+    "algorithm": "U R U R' U' M' U R U' r'",
+    "setup": "r U R' U' M U R U' R' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -989,7 +1089,38 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 57"
+    "standard_label": "OLL 57",
+    "previous_working_algorithm": "F U R U' R' F' U2 F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U2 F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R' U') M' (U R U' r')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "M' U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' U2 F R U R' U' F'"
   },
   {
     "id": "OLL-009",
@@ -1108,13 +1239,29 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 45"
+    "standard_label": "OLL 45",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F R U R' U' F'",
+    "before_atlas_redesign_setup": "F U R U' R' F'"
   },
   {
     "id": "OLL-010",
     "family": "OLL",
-    "algorithm": "F' r U R' U' r' F R U' F R U R' U' F'",
-    "setup": "F U R U' R' F' U R' F' r U R U' r' F",
+    "algorithm": "U' R U R' U' R' F R F'",
+    "setup": "F R' F' R U R U' R' U",
     "tracked_stickers": [
       {
         "position": [
@@ -1231,19 +1378,30 @@
     "previous_working_algorithm": "F R U R' U' F' R U R' U R U2 R' R U R' U R U2 R'",
     "teaching_chunks": [
       {
-        "name": "Bowtie",
-        "moves": "F' r U R' U' r' F R"
-      },
-      {
-        "name": "U'",
+        "name": "Top turn",
         "moves": "U'"
       },
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F' r U R' U' r' F R U' F R U R' U' F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R' U') (R' F R F')"
+    },
+    "before_atlas_redesign_setup": "F U R U' R' F' U R' F' r U R U' r' F"
   },
   {
     "id": "OLL-011",
@@ -1366,11 +1524,21 @@
     "previous_working_algorithm": "R U2 R' U' R U' R' U2 R U R' U R U2 R'",
     "teaching_chunks": [
       {
-        "name": "Bowtie",
-        "moves": "F' r U R' U' r' F R"
+        "name": "Read group",
+        "moves": "F' r U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r' F R"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "F' r U R' U' r' F R",
+    "before_atlas_redesign_setup": "R' F' r U R U' r' F"
   },
   {
     "id": "OLL-012",
@@ -1489,7 +1657,23 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 26"
+    "standard_label": "OLL 26",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "R U2 R' U' R U' R'",
+    "before_atlas_redesign_setup": "R U R' U R U2 R'"
   },
   {
     "id": "OLL-013",
@@ -1608,13 +1792,29 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 27"
+    "standard_label": "OLL 27",
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "R U R' U R U2 R'",
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R'"
   },
   {
     "id": "OLL-014",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U r U R' U' r' F R F'",
-    "setup": "F R' F' r U R U' r' U' F R U R' U' F'",
+    "algorithm": "F R U' R' U' R U R' F'",
+    "setup": "F R U' R' U R U R' F'",
     "tracked_stickers": [
       {
         "position": [
@@ -1731,25 +1931,36 @@
     "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R' U F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Read group",
+        "moves": "F R U' R'"
       },
       {
-        "name": "U",
-        "moves": "U"
+        "name": "Top turn",
+        "moves": "U'"
       },
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U r U R' U' r' F R F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "F (R U' R' U') (R U R' F')"
+    },
+    "before_atlas_redesign_setup": "F R' F' r U R U' r' U' F R U R' U' F'"
   },
   {
     "id": "OLL-015",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U2 R U R' U R U2 R'",
-    "setup": "R U2 R' U' R U' R' U2 F R U R' U' F'",
+    "algorithm": "U2 R U2 R2 F R F' R U2 R'",
+    "setup": "R U2 R' F R' F' R2 U2 R' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -1862,13 +2073,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 35"
+    "standard_label": "OLL 35",
+    "previous_working_algorithm": "F U R U' R' F' U2 R U R' U R U2 R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U2 R U R' U R U2 R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U2') (R2' F R F') (R U2' R')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U2 R2 F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R F' R U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R' U2 F R U R' U' F'"
   },
   {
     "id": "OLL-016",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U' F U R U' R' F'",
-    "setup": "F R U R' U' F' U F U R U' R' F'",
+    "algorithm": "r U2 R' U' R U' r'",
+    "setup": "r U R' U R U2 r'",
     "tracked_stickers": [
       {
         "position": [
@@ -1981,13 +2219,32 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 6"
+    "standard_label": "OLL 6",
+    "previous_working_algorithm": "F R U R' U' F' U' F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U' F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r U2 R' U' R U' r')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "r U2 R' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U' r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' U F U R U' R' F'"
   },
   {
     "id": "OLL-017",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U' F R U R' U' F'",
-    "setup": "F U R U' R' F' U F U R U' R' F'",
+    "algorithm": "r' U2 R U R' U r",
+    "setup": "r' U' R U' R' U2 r",
     "tracked_stickers": [
       {
         "position": [
@@ -2100,13 +2357,32 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 5"
+    "standard_label": "OLL 5",
+    "previous_working_algorithm": "F R U R' U' F' U' F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U' F R U R' U' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r' U2' R U R' U r)"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "r' U2 R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U r"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' U F U R U' R' F'"
   },
   {
     "id": "OLL-018",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U' F' r U R' U' r' F R",
-    "setup": "R' F' r U R U' r' F U F R U R' U' F'",
+    "algorithm": "F U R U2 R' U' R U2 R' U' F'",
+    "setup": "F U R U2 R' U R U2 R' U' F'",
     "tracked_stickers": [
       {
         "position": [
@@ -2223,19 +2499,26 @@
     "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R' F U R U' R' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Read group",
+        "moves": "F U R U2"
       },
       {
-        "name": "U'",
-        "moves": "U'"
+        "name": "Read group",
+        "moves": "R' U' R U2"
       },
       {
-        "name": "Bowtie",
-        "moves": "F' r U R' U' r' F R"
+        "name": "Read group",
+        "moves": "R' U' F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U' F' r U R' U' r' F R",
+    "before_atlas_redesign_setup": "R' F' r U R U' r' F U F R U R' U' F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "y' F U (R U2 R' U') (R U2 R' U') F'"
+    }
   },
   {
     "id": "OLL-019",
@@ -2354,13 +2637,41 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 41"
+    "standard_label": "OLL 41",
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "R U R' U R U2 R' F R U R' U' F'",
+    "before_atlas_redesign_setup": "F U R U' R' F' R U2 R' U' R U' R'"
   },
   {
     "id": "OLL-020",
     "family": "OLL",
-    "algorithm": "R U R' U R U2 R' U F R U R' U' F'",
-    "setup": "F U R U' R' F' U' R U2 R' U' R U' R'",
+    "algorithm": "U2 R U R' U R U' R' U' R' F R F'",
+    "setup": "F R' F' R U R U R' U' R U' R' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -2473,7 +2784,42 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 38"
+    "standard_label": "OLL 38",
+    "previous_working_algorithm": "R U R' U R U2 R' U F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "R U R' U R U2 R' U F R U R' U' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R' U) (R U' R' U') (R' F R F')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R F'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' U' R U2 R' U' R U' R'"
   },
   {
     "id": "OLL-021",
@@ -2592,13 +2938,37 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 36"
+    "standard_label": "OLL 36",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F' U' R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U' R U2 R' U' R U' R'",
+    "before_atlas_redesign_setup": "R U R' U R U2 R' U F R U R' U' F'"
   },
   {
     "id": "OLL-022",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U F R U R' U' F'",
-    "setup": "F U R U' R' F' U' F U R U' R' F'",
+    "algorithm": "U' M' R' U' R U' R' U2 R U' M",
+    "setup": "M' U R' U2 R U R' U R M U",
     "tracked_stickers": [
       {
         "position": [
@@ -2711,13 +3081,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 12"
+    "standard_label": "OLL 12",
+    "previous_working_algorithm": "F R U R' U' F' U F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U F R U R' U' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "M' (R' U' R U' R' U2 R) U' M"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "M' R' U' R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U2 R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "M"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' U' F U R U' R' F'"
   },
   {
     "id": "OLL-023",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U F U R U' R' F'",
-    "setup": "F R U R' U' F' U' F U R U' R' F'",
+    "algorithm": "U r U R' U R U2 r'",
+    "setup": "r U2 R' U' R U' r' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -2830,13 +3231,36 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 7"
+    "standard_label": "OLL 7",
+    "previous_working_algorithm": "F R U R' U' F' U F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r U R' U R U2' r')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "r U R' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U2 r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' U' F U R U' R' F'"
   },
   {
     "id": "OLL-024",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U F' r U R' U' r' F R",
-    "setup": "R' F' r U R U' r' F U' F U R U' R' F'",
+    "algorithm": "U2 R U R2 U' R' F R U R U' F'",
+    "setup": "F U R' U' R' F' R U R2 U' R' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -2953,25 +3377,36 @@
     "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' U' R U2 R' U' R U' R'",
     "teaching_chunks": [
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Top turn",
+        "moves": "U2"
       },
       {
-        "name": "U",
-        "moves": "U"
+        "name": "Read group",
+        "moves": "R U R2 U'"
       },
       {
-        "name": "Bowtie",
-        "moves": "F' r U R' U' r' F R"
+        "name": "Read group",
+        "moves": "R' F R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U' F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U F' r U R' U' r' F R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R2' U') (R' F R U) R U' F'"
+    },
+    "before_atlas_redesign_setup": "R' F' r U R U' r' F U' F U R U' R' F'"
   },
   {
     "id": "OLL-025",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U' R U R' U R U2 R'",
-    "setup": "R U2 R' U' R U' R' U F U R U' R' F'",
+    "algorithm": "U' R' U' R' F R F' U R",
+    "setup": "R' U' F R' F' R U R U",
     "tracked_stickers": [
       {
         "position": [
@@ -3084,13 +3519,36 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 46"
+    "standard_label": "OLL 46",
+    "previous_working_algorithm": "F R U R' U' F' U' R U R' U R U2 R'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U' R U R' U R U2 R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "R' U' (R' F R F') U R"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R' F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R F' U R"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R' U F U R U' R' F'"
   },
   {
     "id": "OLL-026",
     "family": "OLL",
-    "algorithm": "R U2 R' U' R U' R' F U R U' R' F'",
-    "setup": "F R U R' U' F' R U R' U R U2 R'",
+    "algorithm": "L F' L' U' L U F U' L'",
+    "setup": "L U F' U' L' U L F L'",
     "tracked_stickers": [
       {
         "position": [
@@ -3203,13 +3661,36 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 39"
+    "standard_label": "OLL 39",
+    "previous_working_algorithm": "R U2 R' U' R U' R' F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "R U2 R' U' R U' R' F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(L F') (L' U' L U) F U' L'"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "L F' L' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "L U F U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "L'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' R U R' U R U2 R'"
   },
   {
     "id": "OLL-027",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' R U2 R' U' R U' R'",
-    "setup": "R U R' U R U2 R' F U R U' R' F'",
+    "algorithm": "U2 r U r' R U R' U' r U' r'",
+    "setup": "r U r' U R U' R' r U' r' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -3322,13 +3803,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 16"
+    "standard_label": "OLL 16",
+    "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' R U2 R' U' R U' R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r U r') (R U R' U') (r U' r')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "r U r' R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' r U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U R' U R U2 R' F U R U' R' F'"
   },
   {
     "id": "OLL-028",
     "family": "OLL",
-    "algorithm": "r U R' U' r' F R F' U' F R U R' U' F'",
-    "setup": "F U R U' R' F' U F R' F' r U R U' r'",
+    "algorithm": "U F U R U' R2 F' R U R U' R'",
+    "setup": "R U R' U' R' F R2 U R' U' F' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -3445,25 +3957,36 @@
     "previous_working_algorithm": "F R U R' U' F' U F U R U' R' F' U2 F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Top turn",
+        "moves": "U"
       },
       {
-        "name": "U'",
-        "moves": "U'"
+        "name": "Read group",
+        "moves": "F U R U'"
       },
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Read group",
+        "moves": "R2 F' R U"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "r U R' U' r' F R F' U' F R U R' U' F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "F U R U' R2' F' R U (R U' R')"
+    },
+    "before_atlas_redesign_setup": "F U R U' R' F' U F R' F' r U R U' r'"
   },
   {
     "id": "OLL-029",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' R U2 R2 U' R2 U' R2 U2 R",
-    "setup": "R' U2 R2 U R2 U R2 U2 R' F R U R' U' F'",
+    "algorithm": "U' R' U' R U' R' U2 R F R U R' U' F'",
+    "setup": "F U R U' R' F' R' U2 R U R' U R U",
     "tracked_stickers": [
       {
         "position": [
@@ -3580,21 +4103,44 @@
     "previous_working_algorithm": "R U2 R' U' R U' R' F U R U' R' F' F U R U' R' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Top turn",
+        "moves": "U'"
       },
       {
-        "name": "Pi",
-        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+        "name": "Read group",
+        "moves": "R' U' R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U2 R F"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' R U2 R2 U' R2 U' R2 U2 R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R' U' R U' R' U2 R) F (R U R' U') F'"
+    },
+    "before_atlas_redesign_setup": "R' U2 R2 U R2 U R2 U2 R' F R U R' U' F'"
   },
   {
     "id": "OLL-030",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' R U R' U R U' R' U R U2 R'",
-    "setup": "R U2 R' U' R U R' U' R U' R' F R U R' U' F'",
+    "algorithm": "U' M U R U R' U' R' F R F' M'",
+    "setup": "M F R' F' R U R U' R' U' M' U",
     "tracked_stickers": [
       {
         "position": [
@@ -3711,21 +4257,36 @@
     "previous_working_algorithm": "F R U R' U' F' R U2 R' U' R U' R' U2 F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Top turn",
+        "moves": "U'"
       },
       {
-        "name": "H corners",
-        "moves": "R U R' U R U' R' U R U2 R'"
+        "name": "Read group",
+        "moves": "M U R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R' F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R F' M'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' R U R' U R U' R' U R U2 R'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "M U (R U R' U')(R' F R F') M'"
+    },
+    "before_atlas_redesign_setup": "R U2 R' U' R U R' U' R U' R' F R U R' U' F'"
   },
   {
     "id": "OLL-031",
     "family": "OLL",
-    "algorithm": "R U R' U R U2 R' U2 F U R U' R' F' U' F R U R' U' F'",
-    "setup": "F U R U' R' F' U F R U R' U' F' U2 R U2 R' U' R U' R'",
+    "algorithm": "M U R U R' U' M2 U R U' r'",
+    "setup": "r U R' U' M2 U R U' R' U' M'",
     "tracked_stickers": [
       {
         "position": [
@@ -3838,13 +4399,36 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 20"
+    "standard_label": "OLL 20",
+    "previous_working_algorithm": "R U R' U R U2 R' U2 F U R U' R' F' U' F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "R U R' U R U2 R' U2 F U R U' R' F' U' F R U R' U' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "M U (R U R' U') M2' (U R U' r')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "M U R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' M2 U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U' r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' U F R U R' U' F' U2 R U2 R' U' R U' R'"
   },
   {
     "id": "OLL-032",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' F U R U' R' F' U2 F U R U' R' F'",
-    "setup": "F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'",
+    "algorithm": "U2 R U2 R2 F R F' U2 M' U R U' r'",
+    "setup": "r U R' U' M U2 F R' F' R2 U2 R' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -3957,13 +4541,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 18"
+    "standard_label": "OLL 18",
+    "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' U2 F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' F U R U' R' F' U2 F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "y R U2' (R2' F R F') U2' M' (U R U' r')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U2 R2 F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R F' U2 M'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U' r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' U2 F R U R' U' F' F R U R' U' F'"
   },
   {
     "id": "OLL-033",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U R U2 R' U' R U' R' F U R U' R' F'",
-    "setup": "F R U R' U' F' R U R' U R U2 R' U' F R U R' U' F'",
+    "algorithm": "U2 M U R U R' U' M' R' F R F'",
+    "setup": "F R' F' R M U R U' R' U' M' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -4076,13 +4691,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 19"
+    "standard_label": "OLL 19",
+    "previous_working_algorithm": "F U R U' R' F' U R U2 R' U' R U' R' F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U R U2 R' U' R U' R' F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "M U (R U R' U') M' (R' F R F')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "M U R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' M' R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F R F'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' R U R' U R U2 R' U' F R U R' U' F'"
   },
   {
     "id": "OLL-034",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' R U R' U R U2 R'",
-    "setup": "R U2 R' U' R U' R' F U R U' R' F'",
+    "algorithm": "U2 R' F R U R' U' F' U R",
+    "setup": "R' U' F U R U' R' F' R U2",
     "tracked_stickers": [
       {
         "position": [
@@ -4195,13 +4837,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 40"
+    "standard_label": "OLL 40",
+    "previous_working_algorithm": "F R U R' U' F' R U R' U R U2 R'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' R U R' U R U2 R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R' F) (R U R' U') F' U R"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' F' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R' F U R U' R' F'"
   },
   {
     "id": "OLL-035",
     "family": "OLL",
-    "algorithm": "r U R' U' r' F R F' F R U R' U' F'",
-    "setup": "F U R U' R' F' F R' F' r U R U' r'",
+    "algorithm": "R' F R U R' F' R F U' F'",
+    "setup": "F U F' R' F R U' R' F' R",
     "tracked_stickers": [
       {
         "position": [
@@ -4318,21 +4987,36 @@
     "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' R U R' U R U2 R'",
     "teaching_chunks": [
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Read group",
+        "moves": "R' F R U"
       },
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Read group",
+        "moves": "R' F' R F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "r U R' U' r' F R F' F R U R' U' F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R' F R) (U R' F' R) (F U' F')"
+    },
+    "before_atlas_redesign_setup": "F U R U' R' F' F R' F' r U R U' r'"
   },
   {
     "id": "OLL-036",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U R U R' U R U2 R'",
-    "setup": "R U2 R' U' R U' R' U' F U R U' R' F'",
+    "algorithm": "U2 r' U' r R' U' R U r' U r",
+    "setup": "r' U' r U' R' U R r' U r U2",
     "tracked_stickers": [
       {
         "position": [
@@ -4445,13 +5129,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 15"
+    "standard_label": "OLL 15",
+    "previous_working_algorithm": "F R U R' U' F' U R U R' U R U2 R'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U R U R' U R U2 R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r' U' r) (R' U' R U) (r' U r)"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "r' U' r R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U r' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "r"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R' U' F U R U' R' F'"
   },
   {
     "id": "OLL-037",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U2 R U2 R' U' R U' R'",
-    "setup": "R U R' U R U2 R' U2 F R U R' U' F'",
+    "algorithm": "U' r' U' R U' R' U2 r",
+    "setup": "r' U2 R U R' U r U",
     "tracked_stickers": [
       {
         "position": [
@@ -4564,13 +5279,36 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 8"
+    "standard_label": "OLL 8",
+    "previous_working_algorithm": "F U R U' R' F' U2 R U2 R' U' R U' R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U2 R U2 R' U' R U' R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r' U' R U' R' U2 r)"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r' U' R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U2 r"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U R' U R U2 R' U2 F R U R' U' F'"
   },
   {
     "id": "OLL-038",
     "family": "OLL",
-    "algorithm": "R U2 R2 U' R2 U' R2 U2 R U F R U R' U' F'",
-    "setup": "F U R U' R' F' U' R' U2 R2 U R2 U R2 U2 R'",
+    "algorithm": "U' r' R2 U R' U R U2 R' U M'",
+    "setup": "M U' R U2 R' U' R U' R2 r U",
     "tracked_stickers": [
       {
         "position": [
@@ -4687,25 +5425,44 @@
     "previous_working_algorithm": "F R U R' U' F' F R U R' U' F' U F U R U' R' F'",
     "teaching_chunks": [
       {
-        "name": "Pi",
-        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+        "name": "Top turn",
+        "moves": "U'"
       },
       {
-        "name": "U",
+        "name": "Read group",
+        "moves": "r' R2 U R'"
+      },
+      {
+        "name": "Top turn",
         "moves": "U"
       },
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "M'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R U2 R2 U' R2 U' R2 U2 R U F R U R' U' F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "r' (R2 U R' U R U2 R') U M'"
+    },
+    "before_atlas_redesign_setup": "F U R U' R' F' U' R' U2 R2 U R2 U R2 U2 R'"
   },
   {
     "id": "OLL-039",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U' R U2 R2 U' R2 U' R2 U2 R",
-    "setup": "R' U2 R2 U R2 U R2 U2 R' U F R U R' U' F'",
+    "algorithm": "R U R' U' R' F R2 U R' U' F'",
+    "setup": "F U R U' R2 F' R U R U' R'",
     "tracked_stickers": [
       {
         "position": [
@@ -4822,25 +5579,36 @@
     "previous_working_algorithm": "F R U R' U' F' F R U R' U' F' U' F U R U' R' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Right insert",
+        "moves": "R U R'"
       },
       {
-        "name": "U'",
+        "name": "Top turn",
         "moves": "U'"
       },
       {
-        "name": "Pi",
-        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+        "name": "Read group",
+        "moves": "R' F R2 U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U' R U2 R2 U' R2 U' R2 U2 R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R' U') R' F (R2 U R' U') F'"
+    },
+    "before_atlas_redesign_setup": "R' U2 R2 U R2 U R2 U2 R' U F R U R' U' F'"
   },
   {
     "id": "OLL-040",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U' R U R' U R U2 R'",
-    "setup": "R U2 R' U' R U' R' U F R U R' U' F'",
+    "algorithm": "U' R U R' U R' F R F' R U2 R'",
+    "setup": "R U2 R' F R' F' R U' R U' R' U",
     "tracked_stickers": [
       {
         "position": [
@@ -4953,13 +5721,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 10"
+    "standard_label": "OLL 10",
+    "previous_working_algorithm": "F U R U' R' F' U' R U R' U R U2 R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U' R U R' U R U2 R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R' U) (R' F R F') (R U2' R')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R F'"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R' U F R U R' U' F'"
   },
   {
     "id": "OLL-041",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U F R U R' U' F' R U2 R' U' R U' R'",
-    "setup": "R U R' U R U2 R' F U R U' R' F' U' F R U R' U' F'",
+    "algorithm": "U R U R' U R' F R F' U2 R' F R F'",
+    "setup": "F R' F' R U2 F R' F' R U' R U' R' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -5072,7 +5871,42 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 17"
+    "standard_label": "OLL 17",
+    "previous_working_algorithm": "F U R U' R' F' U F R U R' U' F' R U2 R' U' R U' R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U F R U R' U' F' R U2 R' U' R U' R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U R' U) (R' F R F') U2' (R' F R F')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R F'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R F'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U R' U R U2 R' F U R U' R' F' U' F R U R' U' F'"
   },
   {
     "id": "OLL-042",
@@ -5191,7 +6025,31 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 4"
+    "standard_label": "OLL 4",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F' U' F"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U' F R U R' U' F'",
+    "before_atlas_redesign_setup": "F U R U' R' F' U F R U R' U' F'"
   },
   {
     "id": "OLL-043",
@@ -5310,7 +6168,31 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 3"
+    "standard_label": "OLL 3",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F' U F"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U F R U R' U' F'",
+    "before_atlas_redesign_setup": "F U R U' R' F' U' F R U R' U' F'"
   },
   {
     "id": "OLL-044",
@@ -5433,11 +6315,29 @@
     "previous_working_algorithm": "R U R' U R U2 R' R U R' U R U2 R'",
     "teaching_chunks": [
       {
-        "name": "H corners",
-        "moves": "R U R' U R U' R' U R U2 R'"
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "R U R' U R U' R' U R U2 R'",
+    "before_atlas_redesign_setup": "R U2 R' U' R U R' U' R U' R'"
   },
   {
     "id": "OLL-045",
@@ -5560,17 +6460,27 @@
     "previous_working_algorithm": "F U R U' R' F' U2 F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Pi",
-        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+        "name": "Read group",
+        "moves": "R U2 R2 U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 U' R2 U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "R U2 R2 U' R2 U' R2 U2 R",
+    "before_atlas_redesign_setup": "R' U2 R2 U R2 U R2 U2 R'"
   },
   {
     "id": "OLL-046",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U2 R U2 R2 U' R2 U' R2 U2 R",
-    "setup": "R' U2 R2 U R2 U R2 U2 R' U2 F R U R' U' F'",
+    "algorithm": "r U2 R' U' R U R' U' R U' r'",
+    "setup": "r U R' U R U' R' U R U2 r'",
     "tracked_stickers": [
       {
         "position": [
@@ -5687,25 +6597,36 @@
     "previous_working_algorithm": "F U R U' R' F' F U R U' R' F' U2 F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
+        "name": "Read group",
+        "moves": "r U2 R' U'"
       },
       {
-        "name": "U2",
-        "moves": "U2"
+        "name": "Right insert",
+        "moves": "R U R'"
       },
       {
-        "name": "Pi",
-        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U' r'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U2 R U2 R2 U' R2 U' R2 U2 R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "y' (r U2 R' U') (R U R' U') R U' r'"
+    },
+    "before_atlas_redesign_setup": "R' U2 R2 U R2 U R2 U2 R' U2 F R U R' U' F'"
   },
   {
     "id": "OLL-047",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U R U2 R' U' R U' R'",
-    "setup": "R U R' U R U2 R' U' F R U R' U' F'",
+    "algorithm": "U r U' r2 U r2 U r2 U' r",
+    "setup": "r' U r2 U' r2 U' r2 U r' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -5818,13 +6739,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 49"
+    "standard_label": "OLL 49",
+    "previous_working_algorithm": "F U R U' R' F' U R U2 R' U' R U' R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U R U2 R' U' R U' R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "r U' r2' U r2 U r2' U' r"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "r U' r2 U"
+      },
+      {
+        "name": "Read group",
+        "moves": "r2 U r2 U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U R' U R U2 R' U' F R U R' U' F'"
   },
   {
     "id": "OLL-048",
     "family": "OLL",
-    "algorithm": "R U2 R' U' R U' R' F R U R' U' F'",
-    "setup": "F U R U' R' F' R U R' U R U2 R'",
+    "algorithm": "U r' U r2 U' r2 U' r2 U r'",
+    "setup": "r U' r2 U r2 U r2 U' r U'",
     "tracked_stickers": [
       {
         "position": [
@@ -5937,13 +6885,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 50"
+    "standard_label": "OLL 50",
+    "previous_working_algorithm": "R U2 R' U' R U' R' F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "R U2 R' U' R U' R' F R U R' U' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "r' U r2 U' r2' U' r2 U r'"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "r' U r2 U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r2 U' r2 U"
+      },
+      {
+        "name": "Read group",
+        "moves": "r'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' R U R' U R U2 R'"
   },
   {
     "id": "OLL-049",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' F R U R' U' F'",
-    "setup": "F U R U' R' F' F U R U' R' F'",
+    "algorithm": "F R U R' U' R U R' U' F'",
+    "setup": "F U R U' R' U R U' R' F'",
     "tracked_stickers": [
       {
         "position": [
@@ -6056,13 +7031,39 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 48"
+    "standard_label": "OLL 48",
+    "previous_working_algorithm": "F R U R' U' F' F R U R' U' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' F R U R' U' F'",
+    "route_selection": "existing project route with adjacent-turn reduction and alignment normalization; physical review pending",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F U R U' R' F' F U R U' R' F'"
   },
   {
     "id": "OLL-050",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' R U R' U R U2 R'",
-    "setup": "R U2 R' U' R U' R' F R U R' U' F'",
+    "algorithm": "U F' L' U' L U L' U' L U F",
+    "setup": "F' U' L' U L U' L' U L F U'",
     "tracked_stickers": [
       {
         "position": [
@@ -6175,13 +7176,48 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 47"
+    "standard_label": "OLL 47",
+    "previous_working_algorithm": "F U R U' R' F' R U R' U R U2 R'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' R U R' U R U2 R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "F' (L' U' L U) (L' U' L U) F"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' L' U' L"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Left insert",
+        "moves": "L' U' L"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U2 R' U' R U' R' F R U R' U' F'"
   },
   {
     "id": "OLL-051",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' U2 r U R' U' r' F R F'",
-    "setup": "F R' F' r U R U' r' U2 F R U R' U' F'",
+    "algorithm": "U2 r' U' R U' R' U R U' R' U2 r",
+    "setup": "r' U2 R U R' U' R U R' U r U2",
     "tracked_stickers": [
       {
         "position": [
@@ -6298,19 +7334,30 @@
     "previous_working_algorithm": "F R U R' U' F' U F U R U' R' F' R U R' U R U2 R'",
     "teaching_chunks": [
       {
-        "name": "Elbow",
-        "moves": "F U R U' R' F'"
-      },
-      {
-        "name": "U2",
+        "name": "Top turn",
         "moves": "U2"
       },
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Read group",
+        "moves": "r' U' R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U2 r"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' U2 r U R' U' r' F R F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(r' U' R U') (R' U R U') R' U2 r"
+    },
+    "before_atlas_redesign_setup": "F R' F' r U R U' r' U2 F R U R' U' F'"
   },
   {
     "id": "OLL-052",
@@ -6433,21 +7480,35 @@
     "previous_working_algorithm": "F U R U' R' F' U2 F R U R' U' F' F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Read group",
+        "moves": "F R U R'"
       },
       {
-        "name": "Chameleon",
-        "moves": "r U R' U' r' F R F'"
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' r U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "r' F R F'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' r U R' U' r' F R F'",
+    "before_atlas_redesign_setup": "F R' F' r U R U' r' F U R U' R' F'"
   },
   {
     "id": "OLL-053",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' F U R U' R' F'",
-    "setup": "F R U R' U' F' F R U R' U' F'",
+    "algorithm": "F U R U' R' U R U' R' F'",
+    "setup": "F R U R' U' R U R' U' F'",
     "tracked_stickers": [
       {
         "position": [
@@ -6560,13 +7621,31 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 51"
+    "standard_label": "OLL 51",
+    "previous_working_algorithm": "F U R U' R' F' F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' F U R U' R' F'",
+    "route_selection": "existing project route with adjacent-turn reduction and alignment normalization; physical review pending",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' F R U R' U' F'"
   },
   {
     "id": "OLL-054",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U' R U2 R' U' R U' R'",
-    "setup": "R U R' U R U2 R' U F U R U' R' F'",
+    "algorithm": "y R' U' R U' R' U y' R' U R B",
+    "setup": "B' R' U' R y U' R U R' U R y'",
     "tracked_stickers": [
       {
         "position": [
@@ -6679,7 +7758,38 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 52"
+    "standard_label": "OLL 52",
+    "teaching_chunks": [
+      {
+        "name": "Regrip",
+        "moves": "y"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U y' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R B"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U' R U2 R' U' R U' R'",
+    "before_atlas_redesign_setup": "R U R' U R U2 R' U F U R U' R' F'",
+    "previous_working_algorithm": "F R U R' U' F' U' R U2 R' U' R U' R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R' U' R U' R' U) y' (R' U R) B"
+    }
   },
   {
     "id": "OLL-055",
@@ -6802,21 +7912,39 @@
     "previous_working_algorithm": "F R U R' U' F' U2 F U R U' R' F' U2 F R U R' U' F'",
     "teaching_chunks": [
       {
-        "name": "Line",
-        "moves": "F R U R' U' F'"
+        "name": "Read group",
+        "moves": "F R U R'"
       },
       {
-        "name": "Pi",
-        "moves": "R U2 R2 U' R2 U' R2 U2 R"
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' R U2 R2"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 U' R2 U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' R U2 R2 U' R2 U' R2 U2 R",
+    "before_atlas_redesign_setup": "R' U2 R2 U R2 U R2 U2 R' F U R U' R' F'"
   },
   {
     "id": "OLL-056",
     "family": "OLL",
-    "algorithm": "F U R U' R' F' R U R' U R U2 R' U F U R U' R' F'",
-    "setup": "F R U R' U' F' U' R U2 R' U' R U' R' F R U R' U' F'",
+    "algorithm": "U R U2 R2 F R F' U2 R' F R F'",
+    "setup": "F R' F' R U2 F R' F' R2 U2 R' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -6929,13 +8057,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 1"
+    "standard_label": "OLL 1",
+    "previous_working_algorithm": "F U R U' R' F' R U R' U R U2 R' U F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F U R U' R' F' R U R' U R U2 R' U F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "(R U2') (R2' F R F') U2' (R' F R F')"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U2 R2 F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R F' U2 R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F R F'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' U' R U2 R' U' R U' R' F R U R' U' F'"
   },
   {
     "id": "OLL-057",
     "family": "OLL",
-    "algorithm": "F R U R' U' F' U2 F U R U' R' F'",
-    "setup": "F R U R' U' F' U2 F U R U' R' F'",
+    "algorithm": "F R U R' U' F' f R U R' U' f'",
+    "setup": "f U R U' R' f' F U R U' R' F'",
     "tracked_stickers": [
       {
         "position": [
@@ -7048,6 +8203,33 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "OLL 2"
+    "standard_label": "OLL 2",
+    "previous_working_algorithm": "F R U R' U' F' U2 F U R U' R' F'",
+    "before_atlas_redesign_algorithm": "F R U R' U' F' U2 F U R U' R' F'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/oll-algorithms.pdf",
+      "sha256": "dc8a3189274433c7aaf9bb96c5523c1b33ead7b115b242055b936bfc0a3be6e8",
+      "reference_line": "F (R U R' U') F' f (R U R' U') f'"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' f R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' f'"
+      }
+    ],
+    "before_atlas_redesign_setup": "F R U R' U' F' U2 F U R U' R' F'"
   }
 ]

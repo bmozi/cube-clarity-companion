@@ -76,7 +76,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-002",
@@ -155,7 +169,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-003",
@@ -234,7 +262,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
+      }
+    ]
   },
   {
     "id": "F2L-004",
@@ -313,7 +355,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ]
   },
   {
     "id": "F2L-005",
@@ -392,7 +448,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-006",
@@ -471,7 +537,25 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-007",
@@ -550,7 +634,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U2 F U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-008",
@@ -629,7 +723,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U2 F U'"
+      },
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      }
+    ]
   },
   {
     "id": "F2L-009",
@@ -708,7 +812,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ]
   },
   {
     "id": "F2L-010",
@@ -787,7 +901,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-011",
@@ -866,7 +994,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ]
   },
   {
     "id": "F2L-012",
@@ -945,7 +1087,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      }
+    ]
   },
   {
     "id": "F2L-013",
@@ -1024,7 +1180,29 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ]
   },
   {
     "id": "F2L-014",
@@ -1103,7 +1281,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-015",
@@ -1182,7 +1374,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U2 F U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-016",
@@ -1261,7 +1463,13 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-017",
@@ -1340,7 +1548,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-018",
@@ -1419,7 +1641,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-019",
@@ -1498,7 +1734,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      }
+    ]
   },
   {
     "id": "F2L-020",
@@ -1577,7 +1827,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F U2"
+      },
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      }
+    ]
   },
   {
     "id": "F2L-021",
@@ -1656,7 +1916,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U2 F U2"
+      },
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      }
+    ]
   },
   {
     "id": "F2L-022",
@@ -1735,7 +2005,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-023",
@@ -1814,7 +2094,13 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      }
+    ]
   },
   {
     "id": "F2L-024",
@@ -1893,7 +2179,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ]
   },
   {
     "id": "F2L-025",
@@ -1972,7 +2272,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      }
+    ]
   },
   {
     "id": "F2L-026",
@@ -2051,7 +2365,13 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      }
+    ]
   },
   {
     "id": "F2L-027",
@@ -2130,7 +2450,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-028",
@@ -2209,7 +2543,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-029",
@@ -2288,7 +2636,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-030",
@@ -2367,7 +2725,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-031",
@@ -2446,7 +2818,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-032",
@@ -2525,7 +2911,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-033",
@@ -2604,7 +3004,13 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-034",
@@ -2683,7 +3089,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U2 F R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
+      }
+    ]
   },
   {
     "id": "F2L-035",
@@ -2762,7 +3182,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-036",
@@ -2841,7 +3271,29 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-037",
@@ -2920,7 +3372,25 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-038",
@@ -2999,7 +3469,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      }
+    ]
   },
   {
     "id": "F2L-039",
@@ -3078,7 +3558,17 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Double-top insert",
+        "moves": "R U2 R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U2 F"
+      }
+    ]
   },
   {
     "id": "F2L-040",
@@ -3157,7 +3647,21 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F' U2 F U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U2 F U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   },
   {
     "id": "F2L-041",
@@ -3236,6 +3740,24 @@
     "status": "mechanically-verified-working-route",
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "pending",
-    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication."
+    "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
+    "teaching_chunks": [
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Front insert",
+        "moves": "F' U F"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F"
+      }
+    ]
   }
 ]

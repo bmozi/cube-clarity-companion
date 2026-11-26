@@ -1,4 +1,4 @@
-"""Reproduce the book's complete 2x2 teaching route without extra packages."""
+"""Reproduce the companion's complete 2x2 teaching route without extra packages."""
 from pathlib import Path
 import sys,argparse,re
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'src'))

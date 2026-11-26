@@ -2,8 +2,8 @@
   {
     "id": "PLL-001",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R2 U R U R' U' R' U' R' U R'",
-    "setup": "R U' R U R U R U' R' U' R2 U2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "U R' U L' U2 R U' R' U2 R L U2",
+    "setup": "U2 L' R' U2 R U R' U2 L U' R U'",
     "tracked_stickers": [
       {
         "position": [
@@ -116,13 +116,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Ja"
+    "standard_label": "Ja",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R2 U R U R' U' R' U' R' U R'",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R2 U R U R' U' R' U' R' U R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "(R' U L' U2) (R U' R' U2 R) L [U']"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U L' U2"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R L U2"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U' R U R U R U' R' U' R2 U2 R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-002",
     "family": "PLL",
-    "algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' M2 U M2 U2 M2 U M2",
-    "setup": "M2 U' M2 U2 M2 U' M2 F R U' R' U R U R2 F' R U R U' R'",
+    "algorithm": "R' U' F' R U R' U' R' F R2 U' R' U' R U R' U R",
+    "setup": "R' U' R U' R' U R U R2 F' R U R U' R' F U R",
     "tracked_stickers": [
       {
         "position": [
@@ -239,15 +270,42 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2 U R U' R U R U R U' R' U' R2",
     "teaching_chunks": [
       {
-        "name": "T corners",
-        "moves": "R U R' U' R' F R2 U' R' U' R U R' F'"
+        "name": "Read group",
+        "moves": "R' U' F' R"
       },
       {
-        "name": "H edges",
-        "moves": "M2 U M2 U2 M2 U M2"
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R' F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 U' R' U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' M2 U M2 U2 M2 U M2",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "(R' U' F')(R U R' U')(R' F R2 U')(R' U' R U)(R' U R)"
+    },
+    "before_atlas_redesign_setup": "M2 U' M2 U2 M2 U' M2 F R U' R' U R U R2 F' R U R U' R'"
   },
   {
     "id": "PLL-003",
@@ -366,7 +424,23 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Ua"
+    "standard_label": "Ua",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "R U' R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R2"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "R U' R U R U R U' R' U' R2",
+    "before_atlas_redesign_setup": "R2 U R U R' U' R' U' R' U R'"
   },
   {
     "id": "PLL-004",
@@ -485,13 +559,29 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Ub"
+    "standard_label": "Ub",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "R2 U R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "R2 U R U R' U' R' U' R' U R'",
+    "before_atlas_redesign_setup": "R U' R U R U R U' R' U' R2"
   },
   {
     "id": "PLL-005",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2",
-    "setup": "R2 U R U R' U' R' U' R' U R' R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "R U R' F' R U R' U' R' F R2 U' R' U'",
+    "setup": "U R U R2 F' R U R U' R' F R U' R'",
     "tracked_stickers": [
       {
         "position": [
@@ -604,13 +694,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Jb"
+    "standard_label": "Jb",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "(R U R' F') (R U R' U') R' F R2 U' R' [U']"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R2 U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R2 U R U R' U' R' U' R' U R' R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-006",
     "family": "PLL",
-    "algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' M2 U M2 U M' U2 M2 U2 M' U2",
-    "setup": "U2 M U2 M2 U2 M U' M2 U' M2 F R U' R' U R U R2 F' R U R U' R'",
+    "algorithm": "U2 x R' U R' D2 R U' R' D2 R2 x' U2",
+    "setup": "U2 x R2 D2 R U R' D2 R U' R x' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -727,21 +848,40 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "T corners",
-        "moves": "R U R' U' R' F R2 U' R' U' R U R' F'"
+        "name": "Top turn",
+        "moves": "U2"
       },
       {
-        "name": "Z edges",
-        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+        "name": "Regrip",
+        "moves": "x"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R' D2"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D2 R2 x' U2"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R U R' U' R' F R2 U' R' U' R U R' F' M2 U M2 U M' U2 M2 U2 M' U2",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "x (R' U R') D2 (R U' R') D2 R2 x'"
+    },
+    "before_atlas_redesign_setup": "U2 M U2 M2 U2 M U' M2 U' M2 F R U' R' U R U R2 F' R U R U' R'"
   },
   {
     "id": "PLL-007",
     "family": "PLL",
-    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L R2 U R U R' U' R' U' R' U R'",
-    "setup": "R U' R U R U R U' R' U' R2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "algorithm": "y2 R' U R' U' y R' F' R2 U' R' U R' F R F y",
+    "setup": "y' F' R' F' R U' R U R2 F R y' U R U' R y2",
     "tracked_stickers": [
       {
         "position": [
@@ -858,21 +998,44 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U R U' R U R U R U' R' U' R2 U F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "Diagonal corners",
-        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+        "name": "Regrip",
+        "moves": "y2"
       },
       {
-        "name": "Ub",
-        "moves": "R2 U R U R' U' R' U' R' U R'"
+        "name": "Read group",
+        "moves": "R' U R' U'"
+      },
+      {
+        "name": "Regrip",
+        "moves": "y"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F' R2 U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R' F"
+      },
+      {
+        "name": "Read group",
+        "moves": "R F y"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L R2 U R U R' U' R' U' R' U R'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "(R' U R' U') y (R' F' R2 U') (R' U R' F) R F"
+    },
+    "before_atlas_redesign_setup": "R U' R U R U R U' R' U' R2 L' U R' U2 L U' R L' U R' U2 L U' R"
   },
   {
     "id": "PLL-008",
     "family": "PLL",
-    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L M2 U M2 U2 M2 U M2",
-    "setup": "M2 U' M2 U2 M2 U' M2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "algorithm": "z U R' D R2 U' R D' U R' D R2 U' R D' R' z' U2",
+    "setup": "U2 z R D R' U R2 D' R U' D R' U R2 D' R U' z'",
     "tracked_stickers": [
       {
         "position": [
@@ -989,21 +1152,44 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U F R U' R' U R U R2 F' R U R U' R' U' F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "Diagonal corners",
-        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+        "name": "Regrip",
+        "moves": "z"
       },
       {
-        "name": "H edges",
-        "moves": "M2 U M2 U2 M2 U M2"
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' D R2 U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R D' U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D R2 U' R"
+      },
+      {
+        "name": "Read group",
+        "moves": "D' R' z' U2"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L M2 U M2 U2 M2 U M2",
+    "before_atlas_redesign_setup": "M2 U' M2 U2 M2 U' M2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "z (U R' D) (R2 U' R D') (U R' D) (R2 U' R D') [R'] z'"
+    }
   },
   {
     "id": "PLL-009",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U R U' R U R U R U' R' U' R2",
-    "setup": "R2 U R U R' U' R' U' R' U R' U' R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "R2 u R' U R' U' R u' R2 y' R' U R y",
+    "setup": "y' R' U' R y R2 u R' U R U' R u' R2",
     "tracked_stickers": [
       {
         "position": [
@@ -1116,13 +1302,40 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Ga"
+    "standard_label": "Ga",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U R U' R U R U R U' R' U' R2",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' U R U' R U R U R U' R' U' R2",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "R2 u (R' U R' U') R u' R2 y' (R' U R)"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "R2 u R' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R u'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 y' R' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R y"
+      }
+    ],
+    "before_atlas_redesign_setup": "R2 U R U R' U' R' U' R' U R' U' R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-010",
     "family": "PLL",
-    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L R U' R U R U R U' R' U' R2",
-    "setup": "R2 U R U R' U' R' U' R' U R' L' U R' U2 L U' R L' U R' U2 L U' R",
+    "algorithm": "U2 F R U' R' U' R U R' F' R U R' U' R' F R F' U2",
+    "setup": "U2 F R' F' R U R U' R' F R U' R' U R U R' F' U2",
     "tracked_stickers": [
       {
         "position": [
@@ -1239,21 +1452,52 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' R U' R U R U R U' R' U' R2 U2 F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "Diagonal corners",
-        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+        "name": "Top turn",
+        "moves": "U2"
       },
       {
-        "name": "Ua",
-        "moves": "R U' R U R U R U' R' U' R2"
+        "name": "Read group",
+        "moves": "F R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R F'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U2"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L R U' R U R U R U' R' U' R2",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "F (R U' R' U') (R U R' F') (R U R' U') (R' F R F')"
+    },
+    "before_atlas_redesign_setup": "R2 U R U R' U' R' U' R' U R' L' U R' U2 L U' R L' U R' U2 L U' R"
   },
   {
     "id": "PLL-011",
     "family": "PLL",
-    "algorithm": "M2 U M2 U M' U2 M2 U2 M' U2 R U R' U' R' F R2 U' R' U' R U R' F'",
-    "setup": "F R U' R' U R U R2 F' R U R U' R' U2 M U2 M2 U2 M U' M2 U' M2",
+    "algorithm": "U x R2 D2 R U R' D2 R U' R x' U'",
+    "setup": "U x R' U R' D2 R U' R' D2 R2 x' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -1370,15 +1614,34 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "Z edges",
-        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+        "name": "Top turn",
+        "moves": "U"
       },
       {
-        "name": "T corners",
-        "moves": "R U R' U' R' F R2 U' R' U' R U R' F'"
+        "name": "Regrip",
+        "moves": "x"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 D2 R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' D2 R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R x' U'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "M2 U M2 U M' U2 M2 U2 M' U2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "x R2' D2 (R U R') D2 (R U' R) x'"
+    },
+    "before_atlas_redesign_setup": "F R U' R' U R U R2 F' R U R U' R' U2 M U2 M2 U2 M U' M2 U' M2"
   },
   {
     "id": "PLL-012",
@@ -1497,13 +1760,37 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "T"
+    "standard_label": "T",
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "F R U' R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U R2 F'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R'"
+      }
+    ],
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R'",
+    "before_atlas_redesign_setup": "R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-013",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R U' R U R U R U' R' U' R2",
-    "setup": "R2 U R U R' U' R' U' R' U R' U R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "U F' U' F R2 u R' U R U' R u' R2 U'",
+    "setup": "U R2 u R' U R' U' R u' R2 F' U F U'",
     "tracked_stickers": [
       {
         "position": [
@@ -1616,13 +1903,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Gb"
+    "standard_label": "Gb",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R U' R U R U R U' R' U' R2",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R U' R U R U R U' R' U' R2",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "(F' U' F) (R2 u R' U) (R U' R u') R2'"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "F' U' F R2"
+      },
+      {
+        "name": "Read group",
+        "moves": "u R' U R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R u' R2 U'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R2 U R U R' U' R' U' R' U R' U R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-014",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' R2 U R U R' U' R' U' R' U R'",
-    "setup": "R U' R U R U R U' R' U' R2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "U' R' U2 R U2 R' F R U R' U' R' F' R2",
+    "setup": "R2 F R U R U' R' F' R U2 R' U2 R U",
     "tracked_stickers": [
       {
         "position": [
@@ -1735,7 +2053,38 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Rb"
+    "standard_label": "Rb",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' R2 U R U R' U' R' U' R' U R'",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' R2 U R U R' U' R' U' R' U R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "(R' U2 R U2') R' F (R U R' U') R' F' R2 [U']"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U2 R U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' F R U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U' R' F'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U' R U R U R U' R' U' R2 R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-015",
@@ -1858,17 +2207,27 @@
     "previous_working_algorithm": "R U' R U R U R U' R' U' R2 U' R U' R U R U R U' R' U' R2",
     "teaching_chunks": [
       {
-        "name": "Z edges",
-        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+        "name": "Read group",
+        "moves": "M2 U M2 U"
+      },
+      {
+        "name": "Read group",
+        "moves": "M' U2 M2 U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "M' U2"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "M2 U M2 U M' U2 M2 U2 M' U2",
+    "before_atlas_redesign_setup": "U2 M U2 M2 U2 M U' M2 U' M2"
   },
   {
     "id": "PLL-016",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R2 U R U R' U' R' U' R' U R'",
-    "setup": "R U' R U R U R U' R' U' R2 U R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "D' R U R' U' D R2 U' R U' R' U R' U R2 U'",
+    "setup": "U R2 U' R U' R U R' U R2 D' U R U' R' D",
     "tracked_stickers": [
       {
         "position": [
@@ -1981,13 +2340,48 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Gd"
+    "standard_label": "Gd",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R2 U R U R' U' R' U' R' U R'",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' R2 U R U R' U' R' U' R' U R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "D' (R U R' U') D (R2 U' R U') (R' U R' U) R2 [U]"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "D' R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D R2 U' R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' U R' U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 U'"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U' R U R U R U' R' U' R2 U R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-017",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R U' R U R U R U' R' U' R2",
-    "setup": "R2 U R U R' U' R' U' R' U R' U2 R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "U L U2 L' U2 L F' L' U' L U L F L2",
+    "setup": "L2 F' L' U' L' U L F L' U2 L U2 L' U'",
     "tracked_stickers": [
       {
         "position": [
@@ -2100,13 +2494,44 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Ra"
+    "standard_label": "Ra",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R U' R U R U R U' R' U' R2",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 R U' R U R U R U' R' U' R2",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "y' (L U2 L' U2) L F' (L' U' L U) L F L2' [U]"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "L U2 L' U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "L F' L' U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "L U L F"
+      },
+      {
+        "name": "Read group",
+        "moves": "L2"
+      }
+    ],
+    "before_atlas_redesign_setup": "R2 U R U R' U' R' U' R' U R' U2 R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-018",
     "family": "PLL",
-    "algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L M2 U M2 U M' U2 M2 U2 M' U2",
-    "setup": "U2 M U2 M2 U2 M U' M2 U' M2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "algorithm": "U x' R U' R' D R U R' D' R U R' D R U' R' D' x U'",
+    "setup": "U x' D R U R' D' R U' R' D R U' R' D' R U R' x U'",
     "tracked_stickers": [
       {
         "position": [
@@ -2223,21 +2648,48 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U2 F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "Diagonal corners",
-        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+        "name": "Top turn",
+        "moves": "U"
       },
       {
-        "name": "Z edges",
-        "moves": "M2 U M2 U M' U2 M2 U2 M' U2"
+        "name": "Regrip",
+        "moves": "x'"
+      },
+      {
+        "name": "Right return",
+        "moves": "R U' R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D' R U R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D R U' R'"
+      },
+      {
+        "name": "Read group",
+        "moves": "D' x U'"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "before_atlas_redesign_algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L M2 U M2 U M' U2 M2 U2 M' U2",
+    "before_atlas_redesign_setup": "U2 M U2 M2 U2 M U' M2 U' M2 L' U R' U2 L U' R L' U R' U2 L U' R",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "x' (R U' R' D) (R U R' D') (R U R' D) (R U' R' D') x"
+    }
   },
   {
     "id": "PLL-019",
     "family": "PLL",
-    "algorithm": "F R U' R' U R U R2 F' R U R U' R' U R2 U R U R' U' R' U' R' U R'",
-    "setup": "R U' R U R U R U' R' U' R2 U' R U R' U' R' F R2 U' R' U' R U R' F'",
+    "algorithm": "R2 U' R U' R U R' U R2 D' U R U' R' D U",
+    "setup": "U' D' R U R' U' D R2 U' R U' R' U R' U R2",
     "tracked_stickers": [
       {
         "position": [
@@ -2350,7 +2802,42 @@
     "human_ergonomics_review": "pending",
     "standard_case_number_mapping": "independently classified from reference inverse-state orbit",
     "note": "Project case IDs are not standard OLL/F2L numbering. Generated routes prioritize provable coverage; edit for speed and teaching before publication.",
-    "standard_label": "Gc"
+    "standard_label": "Gc",
+    "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U R2 U R U R' U' R' U' R' U R'",
+    "before_atlas_redesign_algorithm": "F R U' R' U R U R2 F' R U R U' R' U R2 U R U R' U' R' U' R' U R'",
+    "route_selection": "reference-informed; fewer printed tokens with a whole-cube-regrip penalty; physical review pending",
+    "algorithm_reference": {
+      "url": "https://www.cubeskills.com/uploads/pdf/tutorials/pll-algorithms.pdf",
+      "sha256": "6a74b92ea0742b2f71ab65fbaf05371ca812efd2e7610144c99be9093258acf5",
+      "reference_line": "R2 U' (R U' R U) (R' U R2 D') (U R U' R') D [U']"
+    },
+    "teaching_chunks": [
+      {
+        "name": "Read group",
+        "moves": "R2 U' R U'"
+      },
+      {
+        "name": "Right insert",
+        "moves": "R U R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "R2 D' U R"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "R' D U"
+      }
+    ],
+    "before_atlas_redesign_setup": "R U' R U R U R U' R' U' R2 U' R U R' U' R' F R2 U' R' U' R U R' F'"
   },
   {
     "id": "PLL-020",
@@ -2473,11 +2960,17 @@
     "previous_working_algorithm": "R U' R U R U R U' R' U' R2 U R U' R U R U R U' R' U' R2",
     "teaching_chunks": [
       {
-        "name": "H edges",
-        "moves": "M2 U M2 U2 M2 U M2"
+        "name": "Read group",
+        "moves": "M2 U M2 U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "M2 U M2"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal",
+    "before_atlas_redesign_algorithm": "M2 U M2 U2 M2 U M2",
+    "before_atlas_redesign_setup": "M2 U' M2 U2 M2 U' M2"
   },
   {
     "id": "PLL-021",
@@ -2600,10 +3093,28 @@
     "previous_working_algorithm": "F R U' R' U R U R2 F' R U R U' R' U' F R U' R' U R U R2 F' R U R U' R' U F R U' R' U R U R2 F' R U R U' R'",
     "teaching_chunks": [
       {
-        "name": "Diagonal corners",
-        "moves": "R' U L' U2 R U' L R' U L' U2 R U' L"
+        "name": "Read group",
+        "moves": "R' U L' U2"
+      },
+      {
+        "name": "Read group",
+        "moves": "R U' L R'"
+      },
+      {
+        "name": "Top turn",
+        "moves": "U"
+      },
+      {
+        "name": "Read group",
+        "moves": "L' U2 R U'"
+      },
+      {
+        "name": "Read group",
+        "moves": "L"
       }
     ],
-    "route_selection": "shortest token route within the declared familiar-action vocabulary; not globally optimal"
+    "route_selection": "existing project route retained; physical review pending",
+    "before_atlas_redesign_algorithm": "R' U L' U2 R U' L R' U L' U2 R U' L",
+    "before_atlas_redesign_setup": "L' U R' U2 L U' R L' U R' U2 L U' R"
   }
 ]
